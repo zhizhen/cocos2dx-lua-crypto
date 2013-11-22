@@ -1,15 +1,13 @@
 CFLAGS = -g
-file_encrypto:file_encrypto.o xxtea/xxtea.o
-	gcc -o $@ file_encrypto.o xxtea/xxtea.o
 
-#file_decrypto:file_decrypto.o xxtea/xxtea.o
-#	gcc -o $@ file_decrypto.o xxtea/xxtea.o
+debug/file_encrypto:debug/file_encrypto.o debug/xxtea.o
+	gcc -o $@ $^
 
-file_enctypto.o:file_enctypto.c
-	gcc -o $@ -c $^
+debug/file_encrypto.o:src/file_encrypto.c
+	gcc $(CFLAGS) -o $@ -c $<
 
-file_dectypto.o:file_dectypto.c
-	gcc -o $@ -c $^
+debug/xxtea.o:src/xxtea.c src/xxtea.h
+	gcc $(CFLAGS) -o $@ -c $<
 
-xxtea/xxtea/xxtea.o:xxtea/xxtea.c xxtea/xxtea.h
-	gcc $(CFLAGS) -c $<
+clean :
+	rm debug/file_encrypto debug/file_encrypto.o debug/xxtea.o
