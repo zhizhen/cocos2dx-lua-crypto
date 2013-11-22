@@ -7,8 +7,8 @@ cd "$EXDIR/$1"
 #echo please input output dir:
 #read TODIR
 
-FROMDIR=""
-TODIR=""
+FROMDIR="lua"
+TODIR="out"
 
 rm -rf $TODIR
 cp -r $FROMDIR $TODIR
@@ -19,7 +19,7 @@ deepls(){
         y=`basename $x .lua`
         if [ -f $x ]
         then
-            $EXDIR/file_encrypto "$EXDIR/$1/$y.lua" "$EXDIR/$2/$y.so"
+            $EXDIR/debug/file_encrypto "$EXDIR/$1/$y.lua" "$EXDIR/$2/$y.so"
         fi
         if [ -d $x ]
         then
