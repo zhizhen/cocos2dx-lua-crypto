@@ -2,11 +2,15 @@
 EXDIR=`cd $(dirname $0); pwd`
 cd "$EXDIR/$1"
 
-echo please input source dir:
-read FROMDIR
-echo please input output dir:
-read TODIR
+#echo please input source dir:
+#read FROMDIR
+#echo please input output dir:
+#read TODIR
 
+FROMDIR=""
+TODIR=""
+
+rm -rf $TODIR
 cp -r $FROMDIR $TODIR
 
 deepls(){
