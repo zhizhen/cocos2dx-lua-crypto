@@ -1,0 +1,944 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+) return string.find	LuaScript/Common/Utils.lua	/^    for st,sp in function() return string.find(str, delimiter, pos, true) end do$/;"	f
+) self:AcountLoginTouchHandler	LuaScript/Views/Login/AccountLoginView.lua	/^	self.ccbNode:registerFunctionWithFuncName("loginSelector", function() self:AcountLoginTouchHandler() end)$/;"	f
+) self:ChangeToRegister	LuaScript/Views/Login/AccountLoginView.lua	/^	self.ccbNode:registerFunctionWithFuncName("registerSelector", function() self:ChangeToRegister() end)$/;"	f
+) self:changeServer	LuaScript/Views/Login/SelectRoleView.lua	/^	self.ccbNode:registerFunctionWithFuncName("changeServerSelector", function() self:changeServer() end)$/;"	f
+) self:createAccountAction	LuaScript/Views/Login/RegisterView.lua	/^		self.ccbNode:registerFunctionWithFuncName("createAccountSelector", function() self:createAccountAction() end)$/;"	f
+) self:createRoleHandler	LuaScript/Views/Login/CreateRoleView.lua	/^	self.ccbNode:registerFunctionWithFuncName("createRoleSelector", function() self:createRoleHandler() end)$/;"	f
+) self:enter_or_create	LuaScript/Views/Login/SelectRoleView.lua	/^	self.ccbNode:registerFunctionWithFuncName("enterorcreateSelector",function() self:enter_or_create() end)$/;"	f
+) self:gameCloseTouchHandler	LuaScript/Views/Login/AccountLoginView.lua	/^	self.ccbNode:registerFunctionWithFuncName("gameCloseHandle", function() self:gameCloseTouchHandler() end)$/;"	f
+) self:makeRandomName	LuaScript/Views/Login/CreateRoleView.lua	/^	self.ccbNode:registerFunctionWithFuncName("makeRadomNameSelector", function() self:makeRandomName() end)$/;"	f
+) self:onClickQuestButton	LuaScript/Views/Quest/NpcDialogView.lua	/^	self.ccbi:registerFunctionWithFuncName("clickQuestButton",function() self:onClickQuestButton() end)$/;"	f
+) self:onMainQuestClick	LuaScript/Views/Quest/MainQuestView.lua	/^	self.ccbNode:registerFunctionWithFuncName("onMainQuestClick",function() self:onMainQuestClick() end)$/;"	f
+) self:returnAction	LuaScript/Views/Login/RegisterView.lua	/^		self.ccbNode:registerFunctionWithFuncName("returnMainSelector", function() self:returnAction() end)$/;"	f
+) self:returnHandler	LuaScript/Views/Login/SelectServerView.lua	/^	 self.ccbNode:registerFunctionWithFuncName("returnMain:", function() self:returnHandler() end)$/;"	f
+) self:returnSelectView	LuaScript/Views/Login/CreateRoleView.lua	/^	self.ccbNode:registerFunctionWithFuncName("returnSelector", function() self:returnSelectView() end)$/;"	f
+) self:selectedServer	LuaScript/Views/Login/SelectServerView.lua	/^	 self.ccbNode:registerFunctionWithFuncName("selectConfirm", function() self:selectedServer() end)$/;"	f
+)self:ChangeTypeHandle	LuaScript/Views/Mission/MissionSelectWin.lua	/^    self.ccbi:registerFunctionWithFuncName("changeTypeHandle", function()self:ChangeTypeHandle() end)    $/;"	f
+)self:zhengtaoClick	LuaScript/Views/Mission/MissionSelectWin.lua	/^    self.ccbi:registerFunctionWithFuncName("zhengtaoClick",function()self:zhengtaoClick() end)$/;"	f
+Account:GetAccount	LuaScript/Config/Account/Account.lua	/^function Account:GetAccount()$/;"	f
+Account:SaveAccount	LuaScript/Config/Account/Account.lua	/^ function Account:SaveAccount(name ,psd)$/;"	f
+AccountLogin:AccountLogin	LuaScript/Logics/Login/AccountLogin.lua	/^function AccountLogin:AccountLogin(account_id)$/;"	f
+AccountLogin:Destory	LuaScript/Logics/Login/AccountLogin.lua	/^function AccountLogin:Destory()$/;"	f
+AccountLogin:accountLoginSuccess	LuaScript/Logics/Login/AccountLogin.lua	/^function AccountLogin:accountLoginSuccess(server_list)$/;"	f
+AccountLogin:construct	LuaScript/Logics/Login/AccountLogin.lua	/^function AccountLogin:construct(loginModel)$/;"	f
+AccountLoginViewClass:AcountLoginTouchHandler	LuaScript/Views/Login/AccountLoginView.lua	/^function  AccountLoginViewClass:AcountLoginTouchHandler(sender, controlEvent)$/;"	f
+AccountLoginViewClass:AddToScene	LuaScript/Views/Login/AccountLoginView.lua	/^function  AccountLoginViewClass:AddToScene(scene)$/;"	f
+AccountLoginViewClass:ChangeToRegister	LuaScript/Views/Login/AccountLoginView.lua	/^function  AccountLoginViewClass:ChangeToRegister()$/;"	f
+AccountLoginViewClass:CreateUI	LuaScript/Views/Login/AccountLoginView.lua	/^function  AccountLoginViewClass:CreateUI()$/;"	f
+AccountLoginViewClass:Destroy	LuaScript/Views/Login/AccountLoginView.lua	/^function AccountLoginViewClass:Destroy()$/;"	f
+AccountLoginViewClass:DisableButton	LuaScript/Views/Login/AccountLoginView.lua	/^function AccountLoginViewClass:DisableButton(button_)$/;"	f
+AccountLoginViewClass:GetCCBNode	LuaScript/Views/Login/AccountLoginView.lua	/^function AccountLoginViewClass:GetCCBNode()$/;"	f
+AccountLoginViewClass:Update	LuaScript/Views/Login/AccountLoginView.lua	/^function AccountLoginViewClass:Update(viewData)$/;"	f
+AccountLoginViewClass:construct	LuaScript/Views/Login/AccountLoginView.lua	/^function  AccountLoginViewClass:construct()$/;"	f
+AccountLoginViewClass:gameCloseTouchHandler	LuaScript/Views/Login/AccountLoginView.lua	/^function  AccountLoginViewClass:gameCloseTouchHandler(sender, controlEvent)$/;"	f
+Alert:Close	LuaScript/Views/Utils/Alert.lua	/^function Alert:Close(value)$/;"	f
+Alert:InitView	LuaScript/Views/Utils/Alert.lua	/^function Alert:InitView()$/;"	f
+Alert:Show	LuaScript/Views/Utils/Alert.lua	/^function Alert:Show(msg,resultFun,isShowCancle)$/;"	f
+Alert:ShowCCBI	LuaScript/Views/Utils/Alert.lua	/^function Alert:ShowCCBI(ccbiView,resultFun,isShowCancle)$/;"	f
+Alert:construct	LuaScript/Views/Utils/Alert.lua	/^function Alert:construct()$/;"	f
+AlertManager:Show	LuaScript/Manager/AlertManager.lua	/^function AlertManager:Show(msg,resultFun,isShowCancle)$/;"	f
+AlertManager:ShowCCBI	LuaScript/Manager/AlertManager.lua	/^function AlertManager:ShowCCBI(view,resultFun,isShowCancle)$/;"	f
+AlertManager:construct	LuaScript/Manager/AlertManager.lua	/^function AlertManager:construct()$/;"	f
+AlphaButton:SetData	LuaScript/Views/Utils/AlphaButton.lua	/^function AlphaButton:SetData(content,font,fontSize,data)$/;"	f
+AlphaButton:SetSize	LuaScript/Views/Utils/AlphaButton.lua	/^function AlphaButton:SetSize(w,h)$/;"	f
+AlphaButton:construct	LuaScript/Views/Utils/AlphaButton.lua	/^function AlphaButton:construct()$/;"	f
+BattleCharacter:AIAttack	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:AIAttack()$/;"	f
+BattleCharacter:AIBossAttackEnd	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:AIBossAttackEnd()$/;"	f
+BattleCharacter:AINext	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:AINext()$/;"	f
+BattleCharacter:AISoldierAttackEnd	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:AISoldierAttackEnd()$/;"	f
+BattleCharacter:AttackCharacter	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:AttackCharacter(defencer, x, y, w, h)$/;"	f
+BattleCharacter:AttackInCharacterList	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:AttackInCharacterList(x, y, w, h)$/;"	f
+BattleCharacter:CanChangeState	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:CanChangeState()$/;"	f
+BattleCharacter:CheckAttack	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:CheckAttack(node, x, y, w, h, fx, fy, fw, fh)$/;"	f
+BattleCharacter:CheckCanAttack	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:CheckCanAttack()$/;"	f
+BattleCharacter:CleantickMoveY	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:CleantickMoveY()$/;"	f
+BattleCharacter:Dead	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:Dead()$/;"	f
+BattleCharacter:FindCharacterRange	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:FindCharacterRange(v, range, faceto)$/;"	f
+BattleCharacter:FindInCharacterList	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:FindInCharacterList(range, faceto)$/;"	f
+BattleCharacter:Follow	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:Follow()$/;"	f
+BattleCharacter:IsAttack	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:IsAttack()$/;"	f
+BattleCharacter:IsDead	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:IsDead()$/;"	f
+BattleCharacter:StartAttack	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:StartAttack()$/;"	f
+BattleCharacter:UnderAttack	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:UnderAttack(attacker)$/;"	f
+BattleCharacter:UnderAttackNormal	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:UnderAttackNormal(stand)$/;"	f
+BattleCharacter:UnderAttackToFallDown	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:UnderAttackToFallDown()$/;"	f
+BattleCharacter:UnderAttackToInAir	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:UnderAttackToInAir(specialPoint)$/;"	f
+BattleCharacter:UnderAttackToUnderAttackStand	LuaScript/Logics/Battle/BattleCharacter.lua	/^function BattleCharacter:UnderAttackToUnderAttackStand()$/;"	f
+BattleManager:AddMonsterBySegment	LuaScript/Manager/BattleManager.lua	/^function BattleManager:AddMonsterBySegment(mapSegment)$/;"	f
+BattleManager:CharacterAdd	LuaScript/Manager/BattleManager.lua	/^function BattleManager:CharacterAdd( node ,  dir, x, y , attackSide ,id,monsterScale)$/;"	f
+BattleManager:CheckNextSegment	LuaScript/Manager/BattleManager.lua	/^function BattleManager:CheckNextSegment()$/;"	f
+BattleManager:EndBattle	LuaScript/Manager/BattleManager.lua	/^function BattleManager:EndBattle()$/;"	f
+BattleManager:IfAllEnemyDead	LuaScript/Manager/BattleManager.lua	/^function BattleManager:IfAllEnemyDead(segment)$/;"	f
+BattleManager:SetMonsterEnable	LuaScript/Manager/BattleManager.lua	/^function BattleManager:SetMonsterEnable(mapSegment)$/;"	f
+BattleManager:StartBattle	LuaScript/Manager/BattleManager.lua	/^function BattleManager:StartBattle()$/;"	f
+BattleManager:Update	LuaScript/Manager/BattleManager.lua	/^function BattleManager:Update()$/;"	f
+BattleManager:addShadow	LuaScript/Manager/BattleManager.lua	/^function BattleManager:addShadow(x, y)$/;"	f
+BattleManager:construct	LuaScript/Manager/BattleManager.lua	/^function BattleManager:construct()$/;"	f
+BattleManager:reorderChild	LuaScript/Manager/BattleManager.lua	/^function BattleManager:reorderChild(node, y)$/;"	f
+BattleManager:tick	LuaScript/Manager/BattleManager.lua	/^function BattleManager:tick()    -- Update 循环$/;"	f
+BattleMap:CreateBattleMapBack	LuaScript/Logics/Battle/BattleMap.lua	/^function BattleMap:CreateBattleMapBack(mapdata)$/;"	f
+BattleMap:CreateBattleMapFront	LuaScript/Logics/Battle/BattleMap.lua	/^function BattleMap:CreateBattleMapFront(mapdata)$/;"	f
+BattleMap:GetCurrentMap	LuaScript/Logics/Battle/BattleMap.lua	/^function BattleMap:GetCurrentMap()$/;"	f
+BattleMap:MoveMap	LuaScript/Logics/Battle/BattleMap.lua	/^function BattleMap:MoveMap(x, y)$/;"	f
+BattleMap:construct	LuaScript/Logics/Battle/BattleMap.lua	/^function BattleMap:construct(mapid)$/;"	f
+BattleNumber:ChangeContinueAttackNum	LuaScript/Logics/Battle/BattleNumber.lua	/^function BattleNumber:ChangeContinueAttackNum(num)$/;"	f
+BattleNumber:CreateContinueAttackNum	LuaScript/Logics/Battle/BattleNumber.lua	/^function BattleNumber:CreateContinueAttackNum(manager, num)$/;"	f
+BattleNumber:CreateDamage	LuaScript/Logics/Battle/BattleNumber.lua	/^function BattleNumber:CreateDamage(defencer, lucky, damage)$/;"	f
+BattleNumber:DestoryContinueAttackNum	LuaScript/Logics/Battle/BattleNumber.lua	/^function BattleNumber:DestoryContinueAttackNum()$/;"	f
+BattleNumber:DestoryDamage	LuaScript/Logics/Battle/BattleNumber.lua	/^function BattleNumber:DestoryDamage()$/;"	f
+BattleNumber:construct	LuaScript/Logics/Battle/BattleNumber.lua	/^function BattleNumber:construct()$/;"	f
+BattleSettlementManager:AddSettlement	LuaScript/Manager/BattleSettlementManager.lua	/^function BattleSettlementManager:AddSettlement(settlementParent)$/;"	f
+BattleSettlementManager:ExitSettlement	LuaScript/Manager/BattleSettlementManager.lua	/^function BattleSettlementManager:ExitSettlement()$/;"	f
+BattleSettlementManager:construct	LuaScript/Manager/BattleSettlementManager.lua	/^function BattleSettlementManager:construct()$/;"	f
+BattleSettlementView:AddSettlementLayer	LuaScript/Views/BattleSettlement/BattleSettlementView.lua	/^function BattleSettlementView:AddSettlementLayer(parent)$/;"	f
+BattleSettlementView:construct	LuaScript/Views/BattleSettlement/BattleSettlementView.lua	/^function BattleSettlementView:construct()$/;"	f
+CFLAGS	Makefile	/^CFLAGS = -g$/;"	m
+CharacterClass:ChangeAction	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:ChangeAction(actionId)$/;"	f
+CharacterClass:ChangeActionAutoFace	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:ChangeActionAutoFace(actionId)$/;"	f
+CharacterClass:ChangeFaceTo	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:ChangeFaceTo(faceto)$/;"	f
+CharacterClass:ChangeXYUnderAttack	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:ChangeXYUnderAttack(attackPushX)$/;"	f
+CharacterClass:DealAnimationCallBack	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:DealAnimationCallBack()$/;"	f
+CharacterClass:Destory	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:Destory()$/;"	f
+CharacterClass:EffectInRange	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:EffectInRange()$/;"	f
+CharacterClass:InAir	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:InAir()$/;"	f
+CharacterClass:IsArrive	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:IsArrive()$/;"	f
+CharacterClass:IsInScreen	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:IsInScreen(nextx)$/;"	f
+CharacterClass:LoadCharacterAnimation	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:LoadCharacterAnimation(aniName, path, x, y)$/;"	f
+CharacterClass:SetAniPosition	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:SetAniPosition(x, y)$/;"	f
+CharacterClass:SetGoalClean	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:SetGoalClean(goalx, goaly)$/;"	f
+CharacterClass:SpecialPointEffect	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:SpecialPointEffect(sp)$/;"	f
+CharacterClass:StopRun	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:StopRun(idle)$/;"	f
+CharacterClass:characterMove	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:characterMove(sgoalx, sgoaly, state, isInCurrentScreen) -- 除了主角之外的所有人$/;"	f
+CharacterClass:construct	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:construct(manager)$/;"	f
+CharacterClass:privateMoveTo	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:privateMoveTo(ifCanOutScreen) -- 除了主角之外的角色$/;"	f
+CharacterClass:specicaltick	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:specicaltick()$/;"	f
+CharacterClass:tick	LuaScript/Logics/Character/CharacterClass.lua	/^function CharacterClass:tick()$/;"	f
+CharacterClassBase:GetAttackActionMax	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetAttackActionMax()$/;"	f
+CharacterClassBase:GetAttackRange	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetAttackRange()$/;"	f
+CharacterClassBase:GetCurrentMap	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetCurrentMap()$/;"	f
+CharacterClassBase:GetIdleTime	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetIdleTime()$/;"	f
+CharacterClassBase:GetMapHeightCanWalk	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetMapHeightCanWalk()$/;"	f
+CharacterClassBase:GetMapOffset	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetMapOffset()$/;"	f
+CharacterClassBase:GetName	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetName()$/;"	f
+CharacterClassBase:GetReaction	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetReaction()$/;"	f
+CharacterClassBase:GetSeeRange	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetSeeRange()$/;"	f
+CharacterClassBase:GetSkillCDTime	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetSkillCDTime(skillID)$/;"	f
+CharacterClassBase:GetSpeed	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:GetSpeed()$/;"	f
+CharacterClassBase:construct	LuaScript/Logics/Character/CharacterClassBase.lua	/^function CharacterClassBase:construct(manager)$/;"	f
+CityManager:AddRole	LuaScript/Manager/MainCityManager.lua	/^function CityManager:AddRole(roleInfo)$/;"	f
+CityManager:ArriveToCheck	LuaScript/Manager/MainCityManager.lua	/^function CityManager:ArriveToCheck()$/;"	f
+CityManager:ArriveToNPC	LuaScript/Manager/MainCityManager.lua	/^function CityManager:ArriveToNPC()$/;"	f
+CityManager:CharacterAdd	LuaScript/Manager/MainCityManager.lua	/^function CityManager:CharacterAdd(node, dir, x, y, id)$/;"	f
+CityManager:EndCity	LuaScript/Manager/MainCityManager.lua	/^function CityManager:EndCity()$/;"	f
+CityManager:GetMainAimation	LuaScript/Manager/MainCityManager.lua	/^function CityManager:GetMainAimation()$/;"	f
+CityManager:GetNPCbyID	LuaScript/Manager/MainCityManager.lua	/^function CityManager:GetNPCbyID(npcID)$/;"	f
+CityManager:GetRole	LuaScript/Manager/MainCityManager.lua	/^function CityManager:GetRole(roleId)$/;"	f
+CityManager:LeaveHandle	LuaScript/Manager/MainCityManager.lua	/^function CityManager:LeaveHandle(data)$/;"	f
+CityManager:MoveHandle	LuaScript/Manager/MainCityManager.lua	/^function CityManager:MoveHandle(data)$/;"	f
+CityManager:MoveToNPC	LuaScript/Manager/MainCityManager.lua	/^function CityManager:MoveToNPC(npcID)$/;"	f
+CityManager:NeighboursHandle	LuaScript/Manager/MainCityManager.lua	/^function CityManager:NeighboursHandle(data)$/;"	f
+CityManager:StartCity	LuaScript/Manager/MainCityManager.lua	/^function CityManager:StartCity(mapId)$/;"	f
+CityManager:UpdatePosHandle	LuaScript/Manager/MainCityManager.lua	/^function CityManager:UpdatePosHandle(data)$/;"	f
+CityManager:addShadow	LuaScript/Manager/MainCityManager.lua	/^function CityManager:addShadow(x, y)$/;"	f
+CityManager:cityMove	LuaScript/Manager/MainCityManager.lua	/^function CityManager:cityMove(x, y)$/;"	f
+CityManager:construct	LuaScript/Manager/MainCityManager.lua	/^function CityManager:construct(manager)$/;"	f
+CityManager:reorderChild	LuaScript/Manager/MainCityManager.lua	/^function CityManager:reorderChild(node, y)$/;"	f
+CityManager:tick	LuaScript/Manager/MainCityManager.lua	/^function CityManager:tick() -- Update 循环$/;"	f
+CityMap:CreateCityMapBack	LuaScript/Views/MainCity/CityMap.lua	/^function CityMap:CreateCityMapBack(mapdata)$/;"	f
+CityMap:CreateCityMapFront	LuaScript/Views/MainCity/CityMap.lua	/^function CityMap:CreateCityMapFront(mapdata)$/;"	f
+CityMap:GetCurrentMap	LuaScript/Views/MainCity/CityMap.lua	/^function CityMap:GetCurrentMap()$/;"	f
+CityMap:MoveMap	LuaScript/Views/MainCity/CityMap.lua	/^function CityMap:MoveMap(x, y)$/;"	f
+CityMap:construct	LuaScript/Views/MainCity/CityMap.lua	/^function CityMap:construct()$/;"	f
+ConnectManager:buildBuffer	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:buildBuffer(buffer, data)$/;"	f
+ConnectManager:close	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:close()$/;"	f
+ConnectManager:connect	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:connect(host, port)$/;"	f
+ConnectManager:construct	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:construct(gameManager)$/;"	f
+ConnectManager:pack	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:pack(data)$/;"	f
+ConnectManager:sendToServer	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:sendToServer(funcId, data)$/;"	f
+ConnectManager:tick	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:tick(timestamp)$/;"	f
+ConnectManager:unpack	LuaScript/Manager/ConnectManager.lua	/^function ConnectManager:unpack(template)$/;"	f
+CreateBattleTouch	LuaScript/Logics/Battle/BattleTouch.lua	/^function CreateBattleTouch(manager)$/;"	f
+CreateCityTouch	LuaScript/Views/MainCity/CityTouch.lua	/^function CreateCityTouch(manager)$/;"	f
+CreateRoleViewClass:AddToScene	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:AddToScene(scene)$/;"	f
+CreateRoleViewClass:CreateUI	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:CreateUI()$/;"	f
+CreateRoleViewClass:GetCCBNode	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:GetCCBNode()$/;"	f
+CreateRoleViewClass:RegisterFunction	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:RegisterFunction()$/;"	f
+CreateRoleViewClass:Update	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:Update(viewData)$/;"	f
+CreateRoleViewClass:changeStateAfterSelected	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:changeStateAfterSelected(rolenode)$/;"	f
+CreateRoleViewClass:construct	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:construct()$/;"	f
+CreateRoleViewClass:createRoleHandler	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:createRoleHandler()$/;"	f
+CreateRoleViewClass:makeRandomName	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:makeRandomName()$/;"	f
+CreateRoleViewClass:playScaleAnimation	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:playScaleAnimation(touchIdx)$/;"	f
+CreateRoleViewClass:returnSelectView	LuaScript/Views/Login/CreateRoleView.lua	/^function CreateRoleViewClass:returnSelectView()$/;"	f
+DailyQuestModel:construct	LuaScript/Model/Quest/DailyQuestModel.lua	/^function DailyQuestModel:construct()$/;"	f
+DragEnd	LuaScript/Manager/PackageManager.lua	/^	local function DragEnd(x,y)$/;"	f
+DragManager:CloseTip	LuaScript/Manager/DragManager.lua	/^function DragManager:CloseTip()$/;"	f
+DragManager:InitDragLayer	LuaScript/Manager/DragManager.lua	/^function DragManager:InitDragLayer(scene)	$/;"	f
+DragManager:ShowTip	LuaScript/Manager/DragManager.lua	/^function DragManager:ShowTip(content,width,height)$/;"	f
+DragManager:StartDrag	LuaScript/Manager/DragManager.lua	/^function DragManager:StartDrag(item,resultFun)$/;"	f
+DragManager:construct	LuaScript/Manager/DragManager.lua	/^function DragManager:construct()$/;"	f
+EffectClass:Create	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:Create(parent, aniName, path, speed)$/;"	f
+EffectClass:CreateEffect	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:CreateEffect(parent,  filename , dir, speed, range, loop ,scale)$/;"	f
+EffectClass:CreateGogogoEffect	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:CreateGogogoEffect(manager)$/;"	f
+EffectClass:CreateUnderEffect	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:CreateUnderEffect(parent,lucky , action)$/;"	f
+EffectClass:EffectDestory	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:EffectDestory()$/;"	f
+EffectClass:constructChild	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:constructChild(parent)$/;"	f
+EffectClass:tick	LuaScript/Logics/Skill/EffectClass.lua	/^function EffectClass:tick()$/;"	f
+EquipInfoModel:SetData	LuaScript/Model/Player/EquipInfoModel.lua	/^function EquipInfoModel:SetData(value)$/;"	f
+EquipInfoModel:construct	LuaScript/Model/Player/EquipInfoModel.lua	/^function EquipInfoModel:construct()$/;"	f
+EquipManager:QualitySuccess	LuaScript/Manager/EquipManager.lua	/^function EquipManager:QualitySuccess(data)$/;"	f
+EquipManager:SelectedStrengthen	LuaScript/Manager/EquipManager.lua	/^function EquipManager:SelectedStrengthen(id)$/;"	f
+EquipManager:ShowQuality	LuaScript/Manager/EquipManager.lua	/^function EquipManager:ShowQuality(id)$/;"	f
+EquipManager:ShowStrengthen	LuaScript/Manager/EquipManager.lua	/^function EquipManager:ShowStrengthen()$/;"	f
+EquipManager:StrengthenSuccess	LuaScript/Manager/EquipManager.lua	/^function EquipManager:StrengthenSuccess(data)$/;"	f
+EquipManager:construct	LuaScript/Manager/EquipManager.lua	/^function EquipManager:construct()$/;"	f
+EquipQuality:Destory	LuaScript/Views/Equip/EquipQuality.lua	/^function EquipQuality:Destory()$/;"	f
+EquipQuality:MaterialIsFull	LuaScript/Views/Equip/EquipQuality.lua	/^function EquipQuality:MaterialIsFull()$/;"	f
+EquipQuality:SetData	LuaScript/Views/Equip/EquipQuality.lua	/^function EquipQuality:SetData(value)$/;"	f
+EquipQuality:SetProperty	LuaScript/Views/Equip/EquipQuality.lua	/^function EquipQuality:SetProperty(label,valueType,value)$/;"	f
+EquipQuality:construct	LuaScript/Views/Equip/EquipQuality.lua	/^function EquipQuality:construct()$/;"	f
+EquipQualityItem:SetData	LuaScript/Views/Equip/EquipQualityItem.lua	/^function EquipQualityItem:SetData(value)$/;"	f
+EquipQualityItem:construct	LuaScript/Views/Equip/EquipQualityItem.lua	/^function EquipQualityItem:construct()$/;"	f
+EquipServerLogic:Dress	LuaScript/Logics/Equip/EquipServerLogic.lua	/^function EquipServerLogic:Dress(slot_id)$/;"	f
+EquipServerLogic:GetEquipInfo	LuaScript/Logics/Equip/EquipServerLogic.lua	/^function EquipServerLogic:GetEquipInfo()$/;"	f
+EquipServerLogic:Quality	LuaScript/Logics/Equip/EquipServerLogic.lua	/^function EquipServerLogic:Quality(id)$/;"	f
+EquipServerLogic:Strengthen	LuaScript/Logics/Equip/EquipServerLogic.lua	/^function EquipServerLogic:Strengthen(id)$/;"	f
+EquipServerLogic:Undress	LuaScript/Logics/Equip/EquipServerLogic.lua	/^function EquipServerLogic:Undress(equip,slot_id)$/;"	f
+EquipServerLogic:construct	LuaScript/Logics/Equip/EquipServerLogic.lua	/^function EquipServerLogic:construct()$/;"	f
+EquipStrengthen:BindStrengthenView	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:BindStrengthenView()$/;"	f
+EquipStrengthen:Destory	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:Destory()$/;"	f
+EquipStrengthen:SetData	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:SetData(value)$/;"	f
+EquipStrengthen:SetProperty	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:SetProperty(label,valueType,value)$/;"	f
+EquipStrengthen:SetSelected	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:SetSelected()$/;"	f
+EquipStrengthen:SetStrengThenItemData	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:SetStrengThenItemData(value)$/;"	f
+EquipStrengthen:UpdateProp	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:UpdateProp(value)$/;"	f
+EquipStrengthen:construct	LuaScript/Views/Equip/EquipStrengthen.lua	/^function EquipStrengthen:construct()$/;"	f
+EquipStrengthenItem:Selected	LuaScript/Views/Equip/EquipStrengthenItem.lua	/^function EquipStrengthenItem:Selected(value)$/;"	f
+EquipStrengthenItem:SetData	LuaScript/Views/Equip/EquipStrengthenItem.lua	/^function EquipStrengthenItem:SetData(value)$/;"	f
+EquipStrengthenItem:construct	LuaScript/Views/Equip/EquipStrengthenItem.lua	/^function EquipStrengthenItem:construct()$/;"	f
+GLanguageGetText	LuaScript/Language/LanguageText.lua	/^function GLanguageGetText(strName)$/;"	f
+GLanguageSetType	LuaScript/Language/LanguageText.lua	/^function GLanguageSetType(index)$/;"	f
+GLog	LuaScript/Common/Log.lua	/^ function GLog(...)$/;"	f
+GameData:Login	LuaScript/Model/GameData.lua	/^function GameData:Login()$/;"	f
+GameData:MapData	LuaScript/Model/GameData.lua	/^function GameData:MapData()$/;"	f
+GameData:PackShop	LuaScript/Model/GameData.lua	/^function GameData:PackShop()$/;"	f
+GameData:Player	LuaScript/Model/GameData.lua	/^function GameData:Player()$/;"	f
+GameData:Quest	LuaScript/Model/GameData.lua	/^function GameData:Quest()$/;"	f
+GameData:RoleInfo	LuaScript/Model/GameData.lua	/^function GameData:RoleInfo()$/;"	f
+GameData:construct	LuaScript/Model/GameData.lua	/^function GameData:construct()    $/;"	f
+GameManager:ChangeToBattle	LuaScript/GameManager.lua	/^function GameManager:ChangeToBattle()$/;"	f
+GameManager:ChangeToMainCity	LuaScript/GameManager.lua	/^function GameManager:ChangeToMainCity()$/;"	f
+GameManager:CleanMemory	LuaScript/GameManager.lua	/^function GameManager:CleanMemory()$/;"	f
+GameManager:ExitGame	LuaScript/GameManager.lua	/^function GameManager:ExitGame()$/;"	f
+GameManager:LoseSocketConnect	LuaScript/GameManager.lua	/^function GameManager:LoseSocketConnect()$/;"	f
+GameManager:SocketTick	LuaScript/GameManager.lua	/^function GameManager:SocketTick()$/;"	f
+GameManager:StartSocketTick	LuaScript/GameManager.lua	/^function GameManager:StartSocketTick()$/;"	f
+GameManager:StopSocketTick	LuaScript/GameManager.lua	/^function GameManager:StopSocketTick()$/;"	f
+GameManager:construct	LuaScript/GameManager.lua	/^function GameManager:construct()$/;"	f
+GameManager:init	LuaScript/GameManager.lua	/^function GameManager:init()$/;"	f
+GameManager:startGame	LuaScript/GameManager.lua	/^function GameManager:startGame()$/;"	f
+GameManager:tick	LuaScript/GameManager.lua	/^function GameManager:tick(timestamp)$/;"	f
+GetHexUnicode	LuaScript/Common/Utils.lua	/^function GetHexUnicode(unicode_)$/;"	f
+GetIcon	LuaScript/Common/Utils.lua	/^function GetIcon(iconName)$/;"	f
+ItemBaseClass:GetPrice	LuaScript/Logics/Item/ItemClassBase.lua	/^function ItemBaseClass:GetPrice()$/;"	f
+ItemBaseClass:SetPrice	LuaScript/Logics/Item/ItemClassBase.lua	/^function ItemBaseClass:SetPrice(price)$/;"	f
+ItemClass:construct	LuaScript/Logics/Item/ItemClass.lua	/^function ItemClass:construct()$/;"	f
+ItemEquip:Equip	LuaScript/Logics/Item/ItemEquip.lua	/^function ItemEquip:Equip()$/;"	f
+ItemEquip:UnEquip	LuaScript/Logics/Item/ItemEquip.lua	/^function ItemEquip:UnEquip()$/;"	f
+ItemEquip:construct	LuaScript/Logics/Item/ItemEquip.lua	/^function ItemEquip:construct()$/;"	f
+ItemTreasure:OpenTreasure	LuaScript/Logics/Item/ItemTreasure.lua	/^function ItemTreasure:OpenTreasure()$/;"	f
+ItemUpdate	LuaScript/Logics/Item/ItemClass.lua	/^function ItemUpdate()$/;"	f
+ItemUse	LuaScript/Logics/Item/ItemClass.lua	/^function ItemUse()$/;"	f
+ItemUse:construct	LuaScript/Logics/Item/ItemUse.lua	/^function ItemUse:construct()$/;"	f
+JewelCreator:GetJewelByType	LuaScript/Logics/JewelPlay/JewelCreator.lua	/^function JewelCreator:GetJewelByType(jwlType)$/;"	f
+JewelCreator:GetPreJewelSpriteByType	LuaScript/Logics/JewelPlay/JewelCreator.lua	/^function JewelCreator:GetPreJewelSpriteByType(jwlType)$/;"	f
+JewelCreator:construct	LuaScript/Logics/JewelPlay/JewelCreator.lua	/^function JewelCreator:construct()$/;"	f
+JewelItem:Create	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:Create()$/;"	f
+JewelItem:Destory	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:Destory()$/;"	f
+JewelItem:GetX	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:GetX()$/;"	f
+JewelItem:GetY	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:GetY()$/;"	f
+JewelItem:Height	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:Height()$/;"	f
+JewelItem:Move	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:Move(instanceX,instanceY)$/;"	f
+JewelItem:SetPosition	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:SetPosition(point)$/;"	f
+JewelItem:SetX	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:SetX(x)$/;"	f
+JewelItem:SetY	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:SetY(y)$/;"	f
+JewelItem:Width	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:Width()$/;"	f
+JewelItem:construct	LuaScript/Logics/JewelPlay/JewelItem.lua	/^function JewelItem:construct()$/;"	f
+JewelPlayManager:BlinkSkill	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:BlinkSkill(skillIdx)$/;"	f
+JewelPlayManager:CreateJewelLayer	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:CreateJewelLayer()$/;"	f
+JewelPlayManager:Destory	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:Destory()$/;"	f
+JewelPlayManager:GetJewelFlag	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:GetJewelFlag()$/;"	f
+JewelPlayManager:addNewJewel	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:addNewJewel()$/;"	f
+JewelPlayManager:checkJewelFlag	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:checkJewelFlag()$/;"	f
+JewelPlayManager:clearJewel	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:clearJewel(jewel)$/;"	f
+JewelPlayManager:clearJewelByColor	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:clearJewelByColor(colorType)$/;"	f
+JewelPlayManager:construct	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:construct()$/;"	f
+JewelPlayManager:generateNext	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:generateNext()$/;"	f
+JewelPlayManager:generateShowing	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:generateShowing()$/;"	f
+JewelPlayManager:intalizeData	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:intalizeData()$/;"	f
+JewelPlayManager:playMoveAnimate	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:playMoveAnimate()$/;"	f
+JewelPlayManager:playShowingEffect	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:playShowingEffect()$/;"	f
+JewelPlayManager:updateJewel	LuaScript/Manager/JewelPlayManager.lua	/^function JewelPlayManager:updateJewel()$/;"	f
+JewelPlayView:AddToPreView	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:AddToPreView(node)$/;"	f
+JewelPlayView:Destory	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:Destory()$/;"	f
+JewelPlayView:GetBgContainer	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:GetBgContainer()$/;"	f
+JewelPlayView:GetPreViewPosition	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:GetPreViewPosition()$/;"	f
+JewelPlayView:GetShowingContainer	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:GetShowingContainer()$/;"	f
+JewelPlayView:GetStartShowPosition	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:GetStartShowPosition()$/;"	f
+JewelPlayView:construct	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:construct()$/;"	f
+JewelPlayView:create	LuaScript/Views/JewelPlay/JewelPlayView.lua	/^function JewelPlayView:create()$/;"	f
+JewelShowEffect:PlayClearEffect	LuaScript/Logics/JewelPlay/JewelShowEffect.lua	/^function JewelShowEffect:PlayClearEffect(jewel,callback,etype)$/;"	f
+JewelShowEffect:PlayReleaseSkillEffect	LuaScript/Logics/JewelPlay/JewelShowEffect.lua	/^function JewelShowEffect:PlayReleaseSkillEffect()$/;"	f
+JewelShowEffect:PlaySkillblinkEffect	LuaScript/Logics/JewelPlay/JewelShowEffect.lua	/^function JewelShowEffect:PlaySkillblinkEffect()$/;"	f
+JewelShowEffect:getShowAction	LuaScript/Logics/JewelPlay/JewelShowEffect.lua	/^function JewelShowEffect:getShowAction()$/;"	f
+JsonReader:All	LuaScript/Common/LuaJson.lua	/^function JsonReader:All()$/;"	f
+JsonReader:New	LuaScript/Common/LuaJson.lua	/^function JsonReader:New(s)$/;"	f
+JsonReader:Next	LuaScript/Common/LuaJson.lua	/^function JsonReader:Next()$/;"	f
+JsonReader:Peek	LuaScript/Common/LuaJson.lua	/^function JsonReader:Peek()$/;"	f
+JsonReader:Read	LuaScript/Common/LuaJson.lua	/^function JsonReader:Read()$/;"	f
+JsonReader:ReadArray	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadArray()$/;"	f
+JsonReader:ReadBlockComment	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadBlockComment()$/;"	f
+JsonReader:ReadComment	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadComment()$/;"	f
+JsonReader:ReadFalse	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadFalse()$/;"	f
+JsonReader:ReadNull	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadNull()$/;"	f
+JsonReader:ReadNumber	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadNumber()$/;"	f
+JsonReader:ReadObject	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadObject()$/;"	f
+JsonReader:ReadSingleLineComment	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadSingleLineComment()$/;"	f
+JsonReader:ReadString	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadString()$/;"	f
+JsonReader:ReadTrue	LuaScript/Common/LuaJson.lua	/^function JsonReader:ReadTrue()$/;"	f
+JsonReader:SkipWhiteSpace	LuaScript/Common/LuaJson.lua	/^function JsonReader:SkipWhiteSpace()$/;"	f
+JsonReader:TestReservedWord	LuaScript/Common/LuaJson.lua	/^function JsonReader:TestReservedWord(t)$/;"	f
+JsonWriter:Append	LuaScript/Common/LuaJson.lua	/^function JsonWriter:Append(s)$/;"	f
+JsonWriter:IsArray	LuaScript/Common/LuaJson.lua	/^function JsonWriter:IsArray(t)$/;"	f
+JsonWriter:New	LuaScript/Common/LuaJson.lua	/^function JsonWriter:New()$/;"	f
+JsonWriter:ParseString	LuaScript/Common/LuaJson.lua	/^function JsonWriter:ParseString(s)$/;"	f
+JsonWriter:ToString	LuaScript/Common/LuaJson.lua	/^function JsonWriter:ToString()$/;"	f
+JsonWriter:Write	LuaScript/Common/LuaJson.lua	/^function JsonWriter:Write(o)$/;"	f
+JsonWriter:WriteError	LuaScript/Common/LuaJson.lua	/^function JsonWriter:WriteError(o)$/;"	f
+JsonWriter:WriteFunction	LuaScript/Common/LuaJson.lua	/^function JsonWriter:WriteFunction(o)$/;"	f
+JsonWriter:WriteNil	LuaScript/Common/LuaJson.lua	/^function JsonWriter:WriteNil()$/;"	f
+JsonWriter:WriteString	LuaScript/Common/LuaJson.lua	/^function JsonWriter:WriteString(o)$/;"	f
+JsonWriter:WriteTable	LuaScript/Common/LuaJson.lua	/^function JsonWriter:WriteTable(t)$/;"	f
+LoadZAnimation	LuaScript/Utils/ZgameAnimation.lua	/^function LoadZAnimation(filename , dir , x, y)$/;"	f
+LoadingManager:CreateLoading	LuaScript/Manager/LoadingManager.lua	/^function LoadingManager:CreateLoading(func)$/;"	f
+LoadingManager:LoadingBattle	LuaScript/Manager/LoadingManager.lua	/^function LoadingManager:LoadingBattle()$/;"	f
+LoadingManager:LoadingMainCity	LuaScript/Manager/LoadingManager.lua	/^function LoadingManager:LoadingMainCity()$/;"	f
+LoadingManager:construct	LuaScript/Manager/LoadingManager.lua	/^function LoadingManager:construct(manager)$/;"	f
+LoginBaseView:CreateUI	LuaScript/Views/Login/LoginBaseView.lua	/^function LoginBaseView:CreateUI()$/;"	f
+LoginBaseView:Destroy	LuaScript/Views/Login/LoginBaseView.lua	/^function LoginBaseView:Destroy()$/;"	f
+LoginBaseView:construct	LuaScript/Views/Login/LoginBaseView.lua	/^function LoginBaseView:construct()$/;"	f
+LoginData:AddRole	LuaScript/Model/Login/LoginData.lua	/^function LoginData:AddRole(role_id,role_name,job,level,weapon,armor)$/;"	f
+LoginData:Length	LuaScript/Model/Login/LoginData.lua	/^function LoginData:Length()$/;"	f
+LoginData:RemoveRole	LuaScript/Model/Login/LoginData.lua	/^function LoginData:RemoveRole(role_id)$/;"	f
+LoginData:construct	LuaScript/Model/Login/LoginData.lua	/^function LoginData:construct()$/;"	f
+LoginManager:AccountLogin	LuaScript/Manager/LoginManager.lua	/^function LoginManager:AccountLogin(account_id)$/;"	f
+LoginManager:ChangerLayer	LuaScript/Manager/LoginManager.lua	/^function LoginManager:ChangerLayer(layerName)$/;"	f
+LoginManager:CreatRoleSuccess	LuaScript/Manager/LoginManager.lua	/^function LoginManager:CreatRoleSuccess(p_role)$/;"	f
+LoginManager:CreateRole	LuaScript/Manager/LoginManager.lua	/^function LoginManager:CreateRole(job,name)$/;"	f
+LoginManager:Destory	LuaScript/Manager/LoginManager.lua	/^function LoginManager:Destory()$/;"	f
+LoginManager:EnterGame	LuaScript/Manager/LoginManager.lua	/^function LoginManager:EnterGame(selected_role_id)$/;"	f
+LoginManager:EnterMainScene	LuaScript/Manager/LoginManager.lua	/^function LoginManager:EnterMainScene()$/;"	f
+LoginManager:LoginServer	LuaScript/Manager/LoginManager.lua	/^function LoginManager:LoginServer(serverId)$/;"	f
+LoginManager:SetRoleList	LuaScript/Manager/LoginManager.lua	/^function LoginManager:SetRoleList(list)$/;"	f
+LoginManager:construct	LuaScript/Manager/LoginManager.lua	/^function LoginManager:construct()$/;"	f
+LoginManager:getLoginScene	LuaScript/Manager/LoginManager.lua	/^function LoginManager:getLoginScene()$/;"	f
+LoginScene:Destory	LuaScript/Views/Login/LoginScene.lua	/^function LoginScene:Destory()$/;"	f
+LoginScene:construct	LuaScript/Views/Login/LoginScene.lua	/^function LoginScene:construct(sceneManager)$/;"	f
+LoginScene:createScene	LuaScript/Views/Login/LoginScene.lua	/^function LoginScene:createScene()$/;"	f
+LoginScene:showLayer	LuaScript/Views/Login/LoginScene.lua	/^function LoginScene:showLayer(layerName)$/;"	f
+LoginScene:welcomeLayer	LuaScript/Views/Login/LoginScene.lua	/^function LoginScene:welcomeLayer()$/;"	f
+M.decode	LuaScript/Common/LuaJson.lua	/^function M.decode(s)$/;"	f
+M.encode	LuaScript/Common/LuaJson.lua	/^function M.encode(o)$/;"	f
+M.null	LuaScript/Common/LuaJson.lua	/^function M.null()$/;"	f
+MD5	LuaScript/Common/Utils.lua	/^function MD5(value)$/;"	f
+MainCharacter:AIMainCharacterAttackEnd	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:AIMainCharacterAttackEnd()$/;"	f
+MainCharacter:AINext	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:AINext()$/;"	f
+MainCharacter:CastSkill	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:CastSkill(touchID)$/;"	f
+MainCharacter:CheckCanTouch	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:CheckCanTouch()$/;"	f
+MainCharacter:CheckSkillCD	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:CheckSkillCD(touchID)$/;"	f
+MainCharacter:ContinueAttack	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:ContinueAttack()$/;"	f
+MainCharacter:Dodge	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:Dodge(x, y)$/;"	f
+MainCharacter:IsMoveMap	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:IsMoveMap(offsetx)$/;"	f
+MainCharacter:IsOutMap	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:IsOutMap()$/;"	f
+MainCharacter:Jump	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:Jump(x1, x2)$/;"	f
+MainCharacter:MainCharacterAttackEnd	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:MainCharacterAttackEnd()$/;"	f
+MainCharacter:MainCharacterMove	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:MainCharacterMove(x, y, state)$/;"	f
+MainCharacter:MoveCurrentMap	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:MoveCurrentMap(offsetx)$/;"	f
+MainCharacter:constructChild	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:constructChild()$/;"	f
+MainCharacter:privateMoveTo	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:privateMoveTo()$/;"	f
+MainCharacter:specicaltick	LuaScript/Logics/Character/MainCharacter.lua	/^function MainCharacter:specicaltick()$/;"	f
+MainQuestLogic:ChangeState	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:ChangeState(state_)$/;"	f
+MainQuestLogic:GetCurQuestInfo	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:GetCurQuestInfo()$/;"	f
+MainQuestLogic:GetCurrentQuestCfg	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:GetCurrentQuestCfg()$/;"	f
+MainQuestLogic:GetCurrentQuestId	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:GetCurrentQuestId()$/;"	f
+MainQuestLogic:GetNextQuest	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:GetNextQuest()$/;"	f
+MainQuestLogic:Init	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:Init()$/;"	f
+MainQuestLogic:Update	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:Update()$/;"	f
+MainQuestLogic:checkCfgCondition	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:checkCfgCondition(questId_)$/;"	f
+MainQuestLogic:construct	LuaScript/Logics/Quest/MainQuestLogic.lua	/^function MainQuestLogic:construct(manager_)$/;"	f
+MainQuestModel:GetFullInfoById	LuaScript/Model/Quest/MainQuestModel.lua	/^function MainQuestModel:GetFullInfoById(questId_,questState_)$/;"	f
+MainQuestModel:Update	LuaScript/Model/Quest/MainQuestModel.lua	/^function MainQuestModel:Update(mainQuestData_)$/;"	f
+MainQuestModel:construct	LuaScript/Model/Quest/MainQuestModel.lua	/^function MainQuestModel:construct()$/;"	f
+MainQuestView:AddToScene	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:AddToScene(container)$/;"	f
+MainQuestView:Destroy	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:Destroy()$/;"	f
+MainQuestView:Init	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:Init()$/;"	f
+MainQuestView:Update	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:Update()$/;"	f
+MainQuestView:UpdateMainQuestIcon	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:UpdateMainQuestIcon()$/;"	f
+MainQuestView:construct	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:construct()$/;"	f
+MainQuestView:onMainQuestClick	LuaScript/Views/Quest/MainQuestView.lua	/^function MainQuestView:onMainQuestClick()$/;"	f
+MainUI:Init	LuaScript/Views/System/MainUI.lua	/^function MainUI:Init()	$/;"	f
+MainUI:RoleInfoHandle	LuaScript/Views/System/MainUI.lua	/^function MainUI:RoleInfoHandle(sender,controlEvent)$/;"	f
+MainUI:SetData	LuaScript/Views/System/MainUI.lua	/^function MainUI:SetData()$/;"	f
+MainUI:ShowPackageWin	LuaScript/Views/System/MainUI.lua	/^function MainUI:ShowPackageWin(sender,controlEvent)$/;"	f
+MainUI:ShowRoleWin	LuaScript/Views/System/MainUI.lua	/^function MainUI:ShowRoleWin(sender,event)$/;"	f
+MainUI:ShowStrengthen	LuaScript/Views/System/MainUI.lua	/^function MainUI:ShowStrengthen(sender,event)$/;"	f
+MainUI:construct	LuaScript/Views/System/MainUI.lua	/^function MainUI:construct()$/;"	f
+MapData:construct	LuaScript/Model/Map/MapData.lua	/^function MapData:construct()$/;"	f
+MissionSelectManager:BattleExit	LuaScript/Manager/MissionSelectManager.lua	/^function  MissionSelectManager:BattleExit()$/;"	f
+MissionSelectManager:Close	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:Close()$/;"	f
+MissionSelectManager:CreateView	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:CreateView()$/;"	f
+MissionSelectManager:EnterMission	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:EnterMission(missionId)$/;"	f
+MissionSelectManager:EnterMissionSuccess	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:EnterMissionSuccess()$/;"	f
+MissionSelectManager:FillData	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:FillData(missionsInfo)$/;"	f
+MissionSelectManager:LeaveMission	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:LeaveMission()$/;"	f
+MissionSelectManager:Show	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:Show()$/;"	f
+MissionSelectManager:construct	LuaScript/Manager/MissionSelectManager.lua	/^function MissionSelectManager:construct()$/;"	f
+MissionSelectModel:GetMissionId	LuaScript/Model/Mission/MissionSelectModel.lua	/^function MissionSelectModel:GetMissionId(scene_id)$/;"	f
+MissionSelectModel:SetMissionId	LuaScript/Model/Mission/MissionSelectModel.lua	/^function MissionSelectModel:SetMissionId(scene_id)$/;"	f
+MissionSelectModel:construct	LuaScript/Model/Mission/MissionSelectModel.lua	/^function MissionSelectModel:construct()$/;"	f
+MissionSelectWin:ChangeTypeHandle	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:ChangeTypeHandle(sender, controlEvent)$/;"	f
+MissionSelectWin:CreateTableView	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:CreateTableView()$/;"	f
+MissionSelectWin:Destory	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:Destory()$/;"	f
+MissionSelectWin:DestoryTableView	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:DestoryTableView()$/;"	f
+MissionSelectWin:FillData	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:FillData(missionData)$/;"	f
+MissionSelectWin:Init	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:Init()$/;"	f
+MissionSelectWin:InitView	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:InitView(scene_id)$/;"	f
+MissionSelectWin:construct	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:construct()$/;"	f
+MissionSelectWin:updateText	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:updateText(missionInfo)$/;"	f
+MissionSelectWin:zhengtaoClick	LuaScript/Views/Mission/MissionSelectWin.lua	/^function MissionSelectWin:zhengtaoClick()$/;"	f
+MissionSelecteItem:Destory	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:Destory()$/;"	f
+MissionSelecteItem:InitView	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:InitView(index,selectedCallBack)$/;"	f
+MissionSelecteItem:SetData	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:SetData(missionInfo)$/;"	f
+MissionSelecteItem:SetHighlighted	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:SetHighlighted(bool)$/;"	f
+MissionSelecteItem:SetState	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:SetState(state)$/;"	f
+MissionSelecteItem:ShowScore	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:ShowScore(score)$/;"	f
+MissionSelecteItem:construct	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:construct()$/;"	f
+MissionSelecteItem:updateView	LuaScript/Views/Mission/MissionSelecteItem.lua	/^function MissionSelecteItem:updateView()$/;"	f
+Monster:constructChild	LuaScript/Logics/Character/Monster.lua	/^function Monster:constructChild()$/;"	f
+NPC:DialogViewOpen	LuaScript/Logics/Character/NPC.lua	/^function NPC:DialogViewOpen()$/;"	f
+NPC:constructChild	LuaScript/Logics/Character/NPC.lua	/^function NPC:constructChild()$/;"	f
+NpcDialogLogic:GetNpcDialogData	LuaScript/Logics/Quest/NpcDialogLogic.lua	/^function NpcDialogLogic:GetNpcDialogData()$/;"	f
+NpcDialogLogic:construct	LuaScript/Logics/Quest/NpcDialogLogic.lua	/^function NpcDialogLogic:construct()$/;"	f
+NpcDialogView:Init	LuaScript/Views/Quest/NpcDialogView.lua	/^function NpcDialogView:Init()$/;"	f
+NpcDialogView:SetData	LuaScript/Views/Quest/NpcDialogView.lua	/^function NpcDialogView:SetData(npcId_,questInfoList_)$/;"	f
+NpcDialogView:ShowDialogDes	LuaScript/Views/Quest/NpcDialogView.lua	/^function NpcDialogView:ShowDialogDes()$/;"	f
+NpcDialogView:Update	LuaScript/Views/Quest/NpcDialogView.lua	/^function NpcDialogView:Update()$/;"	f
+NpcDialogView:construct	LuaScript/Views/Quest/NpcDialogView.lua	/^function NpcDialogView:construct( ... )$/;"	f
+NpcDialogView:onClickQuestButton	LuaScript/Views/Quest/NpcDialogView.lua	/^function NpcDialogView:onClickQuestButton()$/;"	f
+PackItem:construct	LuaScript/Model/Package/PackItem.lua	/^function PackItem:construct(data)$/;"	f
+PackShopItem:SetData	LuaScript/Views/Shop/PackShopItem.lua	/^function PackShopItem:SetData(data)$/;"	f
+PackShopItem:construct	LuaScript/Views/Shop/PackShopItem.lua	/^function PackShopItem:construct()$/;"	f
+PackShopLogic:AddSellProp	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:AddSellProp(itemid,id,num)$/;"	f
+PackShopLogic:Buy	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:Buy(item_id)$/;"	f
+PackShopLogic:DelSellProp	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:DelSellProp( id )$/;"	f
+PackShopLogic:GetSellPropDataList	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:GetSellPropDataList()$/;"	f
+PackShopLogic:GetShopData	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:GetShopData()$/;"	f
+PackShopLogic:GetShopInfo	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:GetShopInfo()$/;"	f
+PackShopLogic:GetTime	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:GetTime()$/;"	f
+PackShopLogic:RefreshShop	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:RefreshShop()$/;"	f
+PackShopLogic:RemoveShopData	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:RemoveShopData(item_id)$/;"	f
+PackShopLogic:Retrieve	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:Retrieve(id)$/;"	f
+PackShopLogic:UpdateShopData	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:UpdateShopData(data)$/;"	f
+PackShopLogic:construct	LuaScript/Logics/Shop/PackShopLogic.lua	/^function PackShopLogic:construct()$/;"	f
+PackShopModel:SetData	LuaScript/Model/Shop/PackShopModel.lua	/^function PackShopModel:SetData(value)$/;"	f
+PackShopModel:construct	LuaScript/Model/Shop/PackShopModel.lua	/^function PackShopModel:construct()$/;"	f
+PackShopWin:ChangeSelectedType	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:ChangeSelectedType()$/;"	f
+PackShopWin:Destory	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:Destory()$/;"	f
+PackShopWin:InitView	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:InitView()$/;"	f
+PackShopWin:SetData	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:SetData(value)$/;"	f
+PackShopWin:SetPlayerData	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:SetPlayerData(level,gold)$/;"	f
+PackShopWin:SetSelectedType	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:SetSelectedType(value)$/;"	f
+PackShopWin:SetTime	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:SetTime(value)$/;"	f
+PackShopWin:construct	LuaScript/Views/Shop/PackShopWin.lua	/^function PackShopWin:construct()$/;"	f
+PackageDataLogic:AddItem	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:AddItem(data)$/;"	f
+PackageDataLogic:ClearData	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:ClearData()$/;"	f
+PackageDataLogic:GetEmptySlot	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetEmptySlot()$/;"	f
+PackageDataLogic:GetItemBySoltId	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetItemBySoltId(soltId)$/;"	f
+PackageDataLogic:GetItemNumByItemId	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetItemNumByItemId(item_id)$/;"	f
+PackageDataLogic:GetItemsByType	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetItemsByType(itemType)$/;"	f
+PackageDataLogic:GetPropById	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetPropById(id)	$/;"	f
+PackageDataLogic:GetRoleEquipById	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetRoleEquipById(id)$/;"	f
+PackageDataLogic:GetRoleEquipByType	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetRoleEquipByType(equipType)$/;"	f
+PackageDataLogic:GetTableItemByID	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetTableItemByID(itemID)$/;"	f
+PackageDataLogic:GetViewData	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:GetViewData(itemType)$/;"	f
+PackageDataLogic:IsFull	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:IsFull()$/;"	f
+PackageDataLogic:IsOpen	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:IsOpen(slot_id)$/;"	f
+PackageDataLogic:Order	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:Order()$/;"	f
+PackageDataLogic:RemoveItemById	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:RemoveItemById(id,num)$/;"	f
+PackageDataLogic:RemoveItemBySoltId	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:RemoveItemBySoltId(soltId)$/;"	f
+PackageDataLogic:UpdateData	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:UpdateData(data)$/;"	f
+PackageDataLogic:UpdateSolt	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:UpdateSolt(soltId,targetSoltID)$/;"	f
+PackageDataLogic:construct	LuaScript/Logics/Package/PackageDataLogic.lua	/^function PackageDataLogic:construct()$/;"	f
+PackageDetailed:Destory	LuaScript/Views/Package/PackageDetailed.lua	/^function PackageDetailed:Destory()$/;"	f
+PackageDetailed:SetData	LuaScript/Views/Package/PackageDetailed.lua	/^function PackageDetailed:SetData(value)$/;"	f
+PackageDetailed:SetProperty	LuaScript/Views/Package/PackageDetailed.lua	/^function PackageDetailed:SetProperty(label,valueType,value)$/;"	f
+PackageDetailed:construct	LuaScript/Views/Package/PackageDetailed.lua	/^function PackageDetailed:construct()	$/;"	f
+PackageDetailedWin:InitView	LuaScript/Views/Package/PackageDetailedWin.lua	/^function PackageDetailedWin:InitView()$/;"	f
+PackageDetailedWin:SetData	LuaScript/Views/Package/PackageDetailedWin.lua	/^function PackageDetailedWin:SetData(itemData)$/;"	f
+PackageDetailedWin:construct	LuaScript/Views/Package/PackageDetailedWin.lua	/^function PackageDetailedWin:construct()$/;"	f
+PackageItem:CloseTick	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:CloseTick()$/;"	f
+PackageItem:Destory	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:Destory()$/;"	f
+PackageItem:InitView	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:InitView()	$/;"	f
+PackageItem:IsRoleEquip	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:IsRoleEquip(value)$/;"	f
+PackageItem:SetData	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:SetData(value)$/;"	f
+PackageItem:ShowTime	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:ShowTime()$/;"	f
+PackageItem:UnLock	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:UnLock(value)$/;"	f
+PackageItem:construct	LuaScript/Views/Package/PackageItem.lua	/^function PackageItem:construct()$/;"	f
+PackageMainWin:Destory	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:Destory()$/;"	f
+PackageMainWin:InitView	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:InitView()$/;"	f
+PackageMainWin:SetData	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:SetData(value)$/;"	f
+PackageMainWin:SetGoldAndIngot	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:SetGoldAndIngot(gold,ingot)$/;"	f
+PackageMainWin:Update	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:Update()   $/;"	f
+PackageMainWin:construct	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:construct()$/;"	f
+PackageMainWin:getSlotData	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:getSlotData(table_slot_id)$/;"	f
+PackageMainWin:isDragTableView	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:isDragTableView(bln)$/;"	f
+PackageMainWin:onOpenRoleWin	LuaScript/Views/Package/PackageMainWin.lua	/^function PackageMainWin:onOpenRoleWin()$/;"	f
+PackageManager:AddItem	LuaScript/Manager/PackageManager.lua	/^function PackageManager:AddItem(data)$/;"	f
+PackageManager:BindData	LuaScript/Manager/PackageManager.lua	/^function PackageManager:BindData()$/;"	f
+PackageManager:Close	LuaScript/Manager/PackageManager.lua	/^function PackageManager:Close()$/;"	f
+PackageManager:Consume	LuaScript/Manager/PackageManager.lua	/^function PackageManager:Consume(data)$/;"	f
+PackageManager:CreateView	LuaScript/Manager/PackageManager.lua	/^function PackageManager:CreateView()$/;"	f
+PackageManager:HiddleItemDetail	LuaScript/Manager/PackageManager.lua	/^function PackageManager:HiddleItemDetail()$/;"	f
+PackageManager:IsEquiled	LuaScript/Manager/PackageManager.lua	/^function PackageManager:IsEquiled(id)$/;"	f
+PackageManager:PutonEquipHandle	LuaScript/Manager/PackageManager.lua	/^function PackageManager:PutonEquipHandle()$/;"	f
+PackageManager:SaleItemHandle	LuaScript/Manager/PackageManager.lua	/^function PackageManager:SaleItemHandle()$/;"	f
+PackageManager:Show	LuaScript/Manager/PackageManager.lua	/^function PackageManager:Show()$/;"	f
+PackageManager:ShowItemDetail	LuaScript/Manager/PackageManager.lua	/^function PackageManager:ShowItemDetail(itemData)$/;"	f
+PackageManager:StartDrag	LuaScript/Manager/PackageManager.lua	/^function PackageManager:StartDrag(itemData)$/;"	f
+PackageManager:TakeOffEquipHandle	LuaScript/Manager/PackageManager.lua	/^function PackageManager:TakeOffEquipHandle()$/;"	f
+PackageManager:UnLockSlot	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UnLockSlot(slot_id)$/;"	f
+PackageManager:UnlockBack	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UnlockBack(value)$/;"	f
+PackageManager:UnlockSlotHandle	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UnlockSlotHandle()$/;"	f
+PackageManager:UpdateCoin	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UpdateCoin(value)$/;"	f
+PackageManager:UpdateData	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UpdateData(value)$/;"	f
+PackageManager:UpdateGold	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UpdateGold(value)$/;"	f
+PackageManager:UpdatePackageData	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UpdatePackageData()$/;"	f
+PackageManager:UseItemHandle	LuaScript/Manager/PackageManager.lua	/^function PackageManager:UseItemHandle()$/;"	f
+PackageManager:construct	LuaScript/Manager/PackageManager.lua	/^function PackageManager:construct()$/;"	f
+PackageModel:SetData	LuaScript/Model/Package/PackageModel.lua	/^function PackageModel:SetData(data)$/;"	f
+PackageModel:construct	LuaScript/Model/Package/PackageModel.lua	/^function PackageModel:construct()$/;"	f
+PackageOpenSlot:Destory	LuaScript/Views/Package/PackageOpenSlot.lua	/^function PackageOpenSlot:Destory()$/;"	f
+PackageOpenSlot:SetData	LuaScript/Views/Package/PackageOpenSlot.lua	/^function PackageOpenSlot:SetData(slot_id,time,msg)$/;"	f
+PackageOpenSlot:construct	LuaScript/Views/Package/PackageOpenSlot.lua	/^function PackageOpenSlot:construct()$/;"	f
+PackageServer:DeleteItem	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:DeleteItem(slot)$/;"	f
+PackageServer:GetPackInfo	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:GetPackInfo()$/;"	f
+PackageServer:MoveItem	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:MoveItem(origin_slot,target_slot)	$/;"	f
+PackageServer:SaleItem	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:SaleItem(slot,num)$/;"	f
+PackageServer:SortPackage	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:SortPackage()	$/;"	f
+PackageServer:UnlockSlot	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:UnlockSlot(slot_id,type)$/;"	f
+PackageServer:UseItem	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:UseItem(slot,num)$/;"	f
+PackageServer:construct	LuaScript/Logics/Package/PackageServer.lua	/^function PackageServer:construct()$/;"	f
+PlaySound	LuaScript/Common/Sound.lua	/^function PlaySound(filename)$/;"	f
+PlaySoundEffect	LuaScript/Common/Sound.lua	/^function PlaySoundEffect(filename)$/;"	f
+PlayerCharacter:constructChild	LuaScript/Logics/Character/PlayerCharacter.lua	/^function PlayerCharacter:constructChild()$/;"	f
+PlayerCharacter:privateMoveTo	LuaScript/Logics/Character/PlayerCharacter.lua	/^function PlayerCharacter:privateMoveTo() -- 除了主角之外的角色$/;"	f
+PlayerListModel:AddPlayer	LuaScript/Model/Player/PlayerListModel.lua	/^function PlayerListModel:AddPlayer(playerInfo)$/;"	f
+PlayerListModel:GetPlayerInfo	LuaScript/Model/Player/PlayerListModel.lua	/^function PlayerListModel:GetPlayerInfo(roleID)$/;"	f
+PlayerListModel:RemovePlayer	LuaScript/Model/Player/PlayerListModel.lua	/^function PlayerListModel:RemovePlayer(roleId)$/;"	f
+PlayerListModel:construct	LuaScript/Model/Player/PlayerListModel.lua	/^function PlayerListModel:construct()$/;"	f
+PlayerModel:SetData	LuaScript/Model/Player/PlayerModel.lua	/^function PlayerModel:SetData(value)$/;"	f
+PlayerModel:construct	LuaScript/Model/Player/PlayerModel.lua	/^function PlayerModel:construct()$/;"	f
+ProgressBar:Create	LuaScript/Utils/ProgressBar.lua	/^function ProgressBar:Create()$/;"	f
+ProgressBar:Create	LuaScript/Views/System/ProgressBar.lua	/^function ProgressBar:Create()$/;"	f
+ProgressBar:CreateTime	LuaScript/Utils/ProgressBar.lua	/^function ProgressBar:CreateTime(maxTime)$/;"	f
+ProgressBar:CreateTime	LuaScript/Views/System/ProgressBar.lua	/^function ProgressBar:CreateTime(maxTime)$/;"	f
+ProgressBar:Destory	LuaScript/Utils/ProgressBar.lua	/^function ProgressBar:Destory()$/;"	f
+ProgressBar:Destory	LuaScript/Views/System/ProgressBar.lua	/^function ProgressBar:Destory()$/;"	f
+ProgressBar:Init	LuaScript/Utils/ProgressBar.lua	/^function ProgressBar:Init()	$/;"	f
+ProgressBar:Init	LuaScript/Views/System/ProgressBar.lua	/^function ProgressBar:Init()	$/;"	f
+ProgressBar:SetPercentage	LuaScript/Utils/ProgressBar.lua	/^function ProgressBar:SetPercentage(value)$/;"	f
+ProgressBar:SetPercentage	LuaScript/Views/System/ProgressBar.lua	/^function ProgressBar:SetPercentage(value)$/;"	f
+ProgressBar:construct	LuaScript/Utils/ProgressBar.lua	/^function ProgressBar:construct()$/;"	f
+ProgressBar:construct	LuaScript/Views/System/ProgressBar.lua	/^function ProgressBar:construct()$/;"	f
+ProtocolManager:construct	LuaScript/Manager/ProtocolManager.lua	/^function ProtocolManager:construct(gameManager)$/;"	f
+ProtocolManager:getFunction	LuaScript/Manager/ProtocolManager.lua	/^function ProtocolManager:getFunction(funcId)$/;"	f
+QualityLogic:GetDataById	LuaScript/Logics/Equip/QualityLogic.lua	/^function QualityLogic:GetDataById(id)$/;"	f
+QualityLogic:construct	LuaScript/Logics/Equip/QualityLogic.lua	/^function QualityLogic:construct()$/;"	f
+QuestInfo:GetAwards	LuaScript/Model/Quest/QuestInfo.lua	/^function QuestInfo:GetAwards()$/;"	f
+QuestInfo:GetTalk	LuaScript/Model/Quest/QuestInfo.lua	/^function QuestInfo:GetTalk(state_)$/;"	f
+QuestInfo:construct	LuaScript/Model/Quest/QuestInfo.lua	/^function QuestInfo:construct()$/;"	f
+QuestListLogic:Add	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:Add(questInfo_)$/;"	f
+QuestListLogic:Check	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:Check()$/;"	f
+QuestListLogic:GetQuestInfoByNpcId	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:GetQuestInfoByNpcId(npcId_)$/;"	f
+QuestListLogic:Remove	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:Remove(questId_)$/;"	f
+QuestListLogic:SetList	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:SetList()$/;"	f
+QuestListLogic:Update	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:Update(questInfo_)$/;"	f
+QuestListLogic:UpdateList	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:UpdateList()$/;"	f
+QuestListLogic:checkCanAccept	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:checkCanAccept()$/;"	f
+QuestListLogic:construct	LuaScript/Logics/Quest/QuestListLogic.lua	/^function QuestListLogic:construct(manager_)$/;"	f
+QuestManager:AcceptQuest	LuaScript/Manager/QuestManager.lua	/^function QuestManager:AcceptQuest()$/;"	f
+QuestManager:AcceptSuccess	LuaScript/Manager/QuestManager.lua	/^function QuestManager:AcceptSuccess()$/;"	f
+QuestManager:AddMainQuestViewTo	LuaScript/Manager/QuestManager.lua	/^function QuestManager:AddMainQuestViewTo(container)$/;"	f
+QuestManager:HandinSuccess	LuaScript/Manager/QuestManager.lua	/^function QuestManager:HandinSuccess()$/;"	f
+QuestManager:Initalize	LuaScript/Manager/QuestManager.lua	/^function QuestManager:Initalize()$/;"	f
+QuestManager:ProceedMainQuest	LuaScript/Manager/QuestManager.lua	/^function QuestManager:ProceedMainQuest()$/;"	f
+QuestManager:SetQuestInfo	LuaScript/Manager/QuestManager.lua	/^function QuestManager:SetQuestInfo(quest_info_list_,complatedList_)$/;"	f
+QuestManager:ShowNpcDialog	LuaScript/Manager/QuestManager.lua	/^function QuestManager:ShowNpcDialog(npcId)$/;"	f
+QuestManager:Update	LuaScript/Manager/QuestManager.lua	/^function QuestManager:Update()$/;"	f
+QuestManager:construct	LuaScript/Manager/QuestManager.lua	/^function QuestManager:construct()$/;"	f
+QuestManager:updateView	LuaScript/Manager/QuestManager.lua	/^function QuestManager:updateView()$/;"	f
+QuestModel:GetFullInfo	LuaScript/Model/Quest/QuestModel.lua	/^function QuestModel:GetFullInfo(shortQuestInfo_)$/;"	f
+QuestModel:SetData	LuaScript/Model/Quest/QuestModel.lua	/^function QuestModel:SetData(quest_info_list_,completedList_)$/;"	f
+QuestModel:construct	LuaScript/Model/Quest/QuestModel.lua	/^function QuestModel:construct()$/;"	f
+QuestOpen:IsOpenQuest	LuaScript/Logics/Quest/QuestOpen.lua	/^function QuestOpen:IsOpenQuest()$/;"	f
+QuestOpen:construct	LuaScript/Logics/Quest/QuestOpen.lua	/^function QuestOpen:construct()$/;"	f
+RegisterViewClass:AddToScene	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:AddToScene(scene)$/;"	f
+RegisterViewClass:CreateUI	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:CreateUI()$/;"	f
+RegisterViewClass:GetCCBNode	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:GetCCBNode()$/;"	f
+RegisterViewClass:Update	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:Update(loginModel)$/;"	f
+RegisterViewClass:construct	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:construct()$/;"	f
+RegisterViewClass:createAccountAction	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:createAccountAction()$/;"	f
+RegisterViewClass:returnAction	LuaScript/Views/Login/RegisterView.lua	/^function RegisterViewClass:returnAction()$/;"	f
+ResourceManager:GetSpriteFrame	LuaScript/Manager/ResourceManager.lua	/^function ResourceManager:GetSpriteFrame(imgName)$/;"	f
+ResourceManager:construct	LuaScript/Manager/ResourceManager.lua	/^function ResourceManager:construct()$/;"	f
+RichTextFormat:CreateButton	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:CreateButton(content,fontSize,fontColor,args)$/;"	f
+RichTextFormat:CreateLabel	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:CreateLabel(content,fontSize,fontColor)$/;"	f
+RichTextFormat:GetFontWidth	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:GetFontWidth(msg,fontSize)$/;"	f
+RichTextFormat:GetString	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:GetString(msg,start,length)$/;"	f
+RichTextFormat:SetData	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:SetData(data,maxWidth)$/;"	f
+RichTextFormat:Sub	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:Sub(str,s,e)$/;"	f
+RichTextFormat:Utfstrlen	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:Utfstrlen(str)$/;"	f
+RichTextFormat:construct	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:construct()$/;"	f
+RichTextFormat:truncateUTF8String	LuaScript/Views/Utils/RichTextFormat.lua	/^function RichTextFormat:truncateUTF8String(s,start,n)$/;"	f
+RoleData:construct	LuaScript/Model/Login/RoleData.lua	/^function RoleData:construct()$/;"	f
+RoleEquip:Destory	LuaScript/Views/Role/RoleEquip.lua	/^function RoleEquip:Destory()$/;"	f
+RoleEquip:EquipClickHandle	LuaScript/Views/Role/RoleEquip.lua	/^function RoleEquip:EquipClickHandle(value)$/;"	f
+RoleEquip:InitView	LuaScript/Views/Role/RoleEquip.lua	/^function RoleEquip:InitView()	$/;"	f
+RoleEquip:Update	LuaScript/Views/Role/RoleEquip.lua	/^function RoleEquip:Update()$/;"	f
+RoleEquip:construct	LuaScript/Views/Role/RoleEquip.lua	/^function RoleEquip:construct()$/;"	f
+RoleEquipItem:Destory	LuaScript/Views/Role/RoleEquipItem.lua	/^function RoleEquipItem:Destory()$/;"	f
+RoleEquipItem:SetData	LuaScript/Views/Role/RoleEquipItem.lua	/^function RoleEquipItem:SetData(value)$/;"	f
+RoleEquipItem:construct	LuaScript/Views/Role/RoleEquipItem.lua	/^function RoleEquipItem:construct()$/;"	f
+RoleInfoModel:SetData	LuaScript/Model/Player/RoleInfoModel.lua	/^function RoleInfoModel:SetData(data)$/;"	f
+RoleInfoModel:UpdateCoin	LuaScript/Model/Player/RoleInfoModel.lua	/^function RoleInfoModel:UpdateCoin(value)$/;"	f
+RoleInfoModel:construct	LuaScript/Model/Player/RoleInfoModel.lua	/^ function RoleInfoModel:construct()$/;"	f
+RoleManager:Show	LuaScript/Manager/RoleManager.lua	/^function RoleManager:Show()$/;"	f
+RoleManager:Update	LuaScript/Manager/RoleManager.lua	/^function RoleManager:Update()$/;"	f
+RoleManager:construct	LuaScript/Manager/RoleManager.lua	/^function RoleManager:construct()$/;"	f
+RoleWin:Destory	LuaScript/Views/Role/RoleWin.lua	/^function RoleWin:Destory()$/;"	f
+RoleWin:InitView	LuaScript/Views/Role/RoleWin.lua	/^function RoleWin:InitView()$/;"	f
+RoleWin:SetAnimation	LuaScript/Views/Role/RoleWin.lua	/^function RoleWin:SetAnimation()$/;"	f
+RoleWin:SetEquipData	LuaScript/Views/Role/RoleWin.lua	/^function RoleWin:SetEquipData(value)$/;"	f
+RoleWin:SetRoleName	LuaScript/Views/Role/RoleWin.lua	/^function RoleWin:SetRoleName(value)$/;"	f
+RoleWin:construct	LuaScript/Views/Role/RoleWin.lua	/^function RoleWin:construct()$/;"	f
+SceneManager:construct	LuaScript/Manager/SceneManager.lua	/^function SceneManager:construct(gameManager)$/;"	f
+SceneManager:initScene	LuaScript/Manager/SceneManager.lua	/^function SceneManager:initScene()$/;"	f
+SelectRoleViewClass:AddToScene	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:AddToScene(scene)$/;"	f
+SelectRoleViewClass:CreateUI	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:CreateUI()$/;"	f
+SelectRoleViewClass:GetCCBNode	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:GetCCBNode()$/;"	f
+SelectRoleViewClass:Update	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:Update(viewData)$/;"	f
+SelectRoleViewClass:addCenterTo	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:addCenterTo(container,sp)$/;"	f
+SelectRoleViewClass:changeServer	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:changeServer()$/;"	f
+SelectRoleViewClass:construct	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:construct()$/;"	f
+SelectRoleViewClass:enter_or_create	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:enter_or_create()$/;"	f
+SelectRoleViewClass:registerFunction	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:registerFunction()$/;"	f
+SelectRoleViewClass:selectedRole	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:selectedRole(index)$/;"	f
+SelectRoleViewClass:switchState	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:switchState(state)$/;"	f
+SelectRoleViewClass:swithRoleBtnState	LuaScript/Views/Login/SelectRoleView.lua	/^function SelectRoleViewClass:swithRoleBtnState()$/;"	f
+SelectServerViewClass:AddToScene	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:AddToScene(scene)$/;"	f
+SelectServerViewClass:CreateUI	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:CreateUI()$/;"	f
+SelectServerViewClass:GetCCBNode	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:GetCCBNode()$/;"	f
+SelectServerViewClass:Update	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:Update(viewData)$/;"	f
+SelectServerViewClass:construct	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:construct()$/;"	f
+SelectServerViewClass:registerCCBCallbackFunc	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:registerCCBCallbackFunc()$/;"	f
+SelectServerViewClass:returnHandler	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:returnHandler()$/;"	f
+SelectServerViewClass:selectedServer	LuaScript/Views/Login/SelectServerView.lua	/^function SelectServerViewClass:selectedServer()$/;"	f
+ShopItemModel:construct	LuaScript/Model/Shop/ShopItemModel.lua	/^function ShopItemModel:construct(data)$/;"	f
+ShopManager:BuyHandle	LuaScript/Manager/ShopManager.lua	/^function ShopManager:BuyHandle()$/;"	f
+ShopManager:RetrieveHandle	LuaScript/Manager/ShopManager.lua	/^function ShopManager:RetrieveHandle()$/;"	f
+ShopManager:ShowPackShop	LuaScript/Manager/ShopManager.lua	/^function ShopManager:ShowPackShop()$/;"	f
+ShopManager:ShowPackShopType	LuaScript/Manager/ShopManager.lua	/^function ShopManager:ShowPackShopType(value)$/;"	f
+ShopManager:UpdatePackShop	LuaScript/Manager/ShopManager.lua	/^function ShopManager:UpdatePackShop(data)$/;"	f
+ShopManager:UpdateRetrieveData	LuaScript/Manager/ShopManager.lua	/^function ShopManager:UpdateRetrieveData()$/;"	f
+ShopManager:construct	LuaScript/Manager/ShopManager.lua	/^function ShopManager:construct()$/;"	f
+ShowTip	LuaScript/Common/Utils.lua	/^function ShowTip(text,title)$/;"	f
+SkillClass:GetEffect	LuaScript/Logics/Skill/SkillClass.lua	/^function SkillClass:GetEffect(parent, skillid)$/;"	f
+SkillClass:Update	LuaScript/Logics/Skill/SkillClass.lua	/^function SkillClass:Update()$/;"	f
+SkillClass:construct	LuaScript/Logics/Skill/SkillClass.lua	/^function SkillClass:construct()$/;"	f
+SocketForLua:close	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:close()$/;"	f
+SocketForLua:connect	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:connect(timeout)$/;"	f
+SocketForLua:connect_no_block	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:connect_no_block()$/;"	f
+SocketForLua:construct	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:construct(host, port)$/;"	f
+SocketForLua:flush	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:flush()$/;"	f
+SocketForLua:getDataFromServer	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:getDataFromServer()$/;"	f
+SocketForLua:get_remaind	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:get_remaind()$/;"	f
+SocketForLua:get_socket_state	LuaScript/NetWork/SocketForLua.lua	/^function SocketForLua:get_socket_state()$/;"	f
+SpecialNPC:constructChild	LuaScript/Logics/Character/SpecialNPC.lua	/^function SpecialNPC:constructChild()$/;"	f
+Split	LuaScript/Common/Utils.lua	/^function Split(str, delim, maxNb)$/;"	f
+StopSound	LuaScript/Common/Sound.lua	/^function StopSound()$/;"	f
+StoryClass:construct	LuaScript/Logics/Story/StoryClass.lua	/^function StoryClass:construct()$/;"	f
+StrengthenLogic:GetData	LuaScript/Logics/Equip/StrengthenLogic.lua	/^function StrengthenLogic:GetData()$/;"	f
+StrengthenLogic:GetQuality	LuaScript/Logics/Equip/StrengthenLogic.lua	/^function StrengthenLogic:GetQuality(id)$/;"	f
+StrengthenLogic:GetStrengthenData	LuaScript/Logics/Equip/StrengthenLogic.lua	/^function StrengthenLogic:GetStrengthenData(id)$/;"	f
+StrengthenLogic:GetStrengthenDetailById	LuaScript/Logics/Equip/StrengthenLogic.lua	/^function StrengthenLogic:GetStrengthenDetailById(id)$/;"	f
+StrengthenLogic:construct	LuaScript/Logics/Equip/StrengthenLogic.lua	/^function StrengthenLogic:construct()$/;"	f
+StringBuilder:Append	LuaScript/Common/LuaJson.lua	/^function StringBuilder:Append(s)$/;"	f
+StringBuilder:New	LuaScript/Common/LuaJson.lua	/^function StringBuilder:New()$/;"	f
+StringBuilder:ToString	LuaScript/Common/LuaJson.lua	/^function StringBuilder:ToString()$/;"	f
+StringReader:All	LuaScript/Common/LuaJson.lua	/^function StringReader:All()$/;"	f
+StringReader:New	LuaScript/Common/LuaJson.lua	/^function StringReader:New(s)$/;"	f
+StringReader:Next	LuaScript/Common/LuaJson.lua	/^function StringReader:Next()$/;"	f
+StringReader:Peek	LuaScript/Common/LuaJson.lua	/^function StringReader:Peek()$/;"	f
+TaskClass:GetDetail	LuaScript/Logics/Quest/TaskClass.lua	/^function TaskClass:GetDetail()$/;"	f
+TaskClass:GetName	LuaScript/Logics/Quest/TaskClass.lua	/^function TaskClass:GetName()$/;"	f
+TaskClass:GetType	LuaScript/Logics/Quest/TaskClass.lua	/^function TaskClass:GetType()$/;"	f
+TaskClass:IsComplete	LuaScript/Logics/Quest/TaskClass.lua	/^function TaskClass:IsComplete()$/;"	f
+TaskClass:SetType	LuaScript/Logics/Quest/TaskClass.lua	/^function TaskClass:SetType(type)$/;"	f
+TaskClass:construct	LuaScript/Logics/Quest/TaskClass.lua	/^function TaskClass:construct()$/;"	f
+TickItem:Destory	LuaScript/Utils/TickItem.lua	/^function TickItem:Destory()$/;"	f
+TickItem:Execute	LuaScript/Utils/TickItem.lua	/^function TickItem:Execute(target,timestamp)$/;"	f
+TickItem:Start	LuaScript/Utils/TickItem.lua	/^function TickItem:Start()$/;"	f
+TickItem:Stop	LuaScript/Utils/TickItem.lua	/^function TickItem:Stop()$/;"	f
+TickItem:construct	LuaScript/Utils/TickItem.lua	/^function TickItem:construct(delay,repetCount,delayFun)$/;"	f
+TickManager:CreateTick	LuaScript/Manager/TickManager.lua	/^function TickManager:CreateTick(delay,repetCount,delayFun)$/;"	f
+TickManager:RemoveTick	LuaScript/Manager/TickManager.lua	/^function TickManager:RemoveTick(tickItem)$/;"	f
+TickManager:StopTick	LuaScript/Manager/TickManager.lua	/^function TickManager:StopTick(tickItem)$/;"	f
+TickManager:construct	LuaScript/Manager/TickManager.lua	/^function TickManager:construct()$/;"	f
+TickManager:tick	LuaScript/Manager/TickManager.lua	/^function TickManager:tick(timestamp)$/;"	f
+TimeManager:FormatTime	LuaScript/Manager/TimeManager.lua	/^function TimeManager:FormatTime(value)$/;"	f
+TimeManager:GetLoginTimeLength	LuaScript/Manager/TimeManager.lua	/^function TimeManager:GetLoginTimeLength()$/;"	f
+TimeManager:GetServerTime	LuaScript/Manager/TimeManager.lua	/^function TimeManager:GetServerTime()$/;"	f
+TimeManager:SetServerTime	LuaScript/Manager/TimeManager.lua	/^function TimeManager:SetServerTime(value)$/;"	f
+TimeManager:Timing	LuaScript/Manager/TimeManager.lua	/^function TimeManager:Timing()$/;"	f
+TimeManager:construct	LuaScript/Manager/TimeManager.lua	/^function TimeManager:construct()$/;"	f
+TutorialClass:construct	LuaScript/Logics/Tutorial/TutorialClass.lua	/^function TutorialClass:construct()$/;"	f
+WinRightTopPoint	LuaScript/Common/Utils.lua	/^function WinRightTopPoint(ccnode)$/;"	f
+Window:Close	LuaScript/Views/Base/Window.lua	/^function Window:Close()$/;"	f
+Window:CreateView	LuaScript/Views/Base/Window.lua	/^function Window:CreateView()$/;"	f
+Window:Destory	LuaScript/Views/Base/Window.lua	/^function Window:Destory()$/;"	f
+Window:Init	LuaScript/Views/Base/Window.lua	/^function Window:Init()$/;"	f
+Window:SetData	LuaScript/Views/Base/Window.lua	/^function Window:SetData(value)$/;"	f
+Window:construct	LuaScript/Views/Base/Window.lua	/^function Window:construct()$/;"	f
+WindowManager:AddWithFadeWindow	LuaScript/Manager/WindowManager.lua	/^function WindowManager:AddWithFadeWindow(windowName)	$/;"	f
+WindowManager:ClearTick	LuaScript/Manager/WindowManager.lua	/^function WindowManager:ClearTick()$/;"	f
+WindowManager:CloseAllWindow	LuaScript/Manager/WindowManager.lua	/^function WindowManager:CloseAllWindow()$/;"	f
+WindowManager:CloseWindow	LuaScript/Manager/WindowManager.lua	/^function WindowManager:CloseWindow(winname)$/;"	f
+WindowManager:Destory	LuaScript/Manager/WindowManager.lua	/^function WindowManager:Destory()$/;"	f
+WindowManager:GetFristWinName	LuaScript/Manager/WindowManager.lua	/^function WindowManager:GetFristWinName()$/;"	f
+WindowManager:GetWindowByName	LuaScript/Manager/WindowManager.lua	/^function WindowManager:GetWindowByName(windowName)$/;"	f
+WindowManager:InitUILayer	LuaScript/Manager/WindowManager.lua	/^function WindowManager:InitUILayer(scene,uiView)$/;"	f
+WindowManager:MoveTo	LuaScript/Manager/WindowManager.lua	/^function WindowManager:MoveTo(content,toX,toY,winName)$/;"	f
+WindowManager:OpenWindowForName	LuaScript/Manager/WindowManager.lua	/^function WindowManager:OpenWindowForName(windowName)$/;"	f
+WindowManager:PopUpWindow	LuaScript/Manager/WindowManager.lua	/^function WindowManager:PopUpWindow(target)$/;"	f
+WindowManager:RePosition	LuaScript/Manager/WindowManager.lua	/^function WindowManager:RePosition()$/;"	f
+WindowManager:RemoveFadeOutList	LuaScript/Manager/WindowManager.lua	/^function WindowManager:RemoveFadeOutList(windowName)$/;"	f
+WindowManager:SetVisible	LuaScript/Manager/WindowManager.lua	/^function WindowManager:SetVisible(visible)$/;"	f
+WindowManager:construct	LuaScript/Manager/WindowManager.lua	/^function WindowManager:construct()$/;"	f
+XXTEA_DELTA	xxtea/xxtea.h	42;"	d
+XXTEA_H	xxtea/xxtea.h	20;"	d
+XXTEA_MX	xxtea/xxtea.h	41;"	d
+["function"]	LuaScript/Data/Character/DataNPC.lua	/^        ["function"]=1        $/;"	f
+["function"]	LuaScript/Data/Character/DataNPC.lua	/^        ["function"]=2        $/;"	f
+["function"]	LuaScript/Data/Character/DataNPC.lua	/^        ["function"]=3        $/;"	f
+[1003] 	LuaScript/Manager/ProtocolManager.lua	/^		[1003] = {System.function_s2c, Protocol.m__system__function__s2c},$/;"	f
+__G__TRACKBACK__	LuaScript/Common/Log.lua	/^function __G__TRACKBACK__(msg)$/;"	f
+_copy	LuaScript/Common/Utils.lua	/^    local function _copy(object)$/;"	f
+_dump	LuaScript/Common/Utils.lua	/^	local function _dump(t,space,name)$/;"	f
+_keys 			LuaScript/NetWork/Protocol.lua	/^		_keys 		= {{"role_id","String"},{"account_id","String"},{"role_name","String"},{"create_time","Int"},{"login_time","Int"},{"ol_time","Int"},{"login_days","Int"},{"continuous_days","Int"},{"job","Int"},{"title","Int"},{"vip","Int"},{"vip_exp","Int"},{"gold","Int64"},{"level","Int"},{"exp","Int"},{"power","Int"},{"prestige","Int"},{"score","Int"},{"group_id","Int"},{"talent","Int"},{"scene_id","Int"},{"pos_x","Int"},{"pos_y","Int"},{"open_scene","IntList"},{"open_function","IntList"},{"update_time","Int"}}$/;"	f
+addNewTableViewCell	LuaScript/Views/Equip/EquipQuality.lua	/^	local function addNewTableViewCell(x)$/;"	f
+addNewTableViewCell	LuaScript/Views/Mission/MissionSelectWin.lua	/^    local function addNewTableViewCell(x)$/;"	f
+addNewTableViewCell	LuaScript/Views/Package/PackageMainWin.lua	/^    local function addNewTableViewCell(x)$/;"	f
+addNewTableViewCell	LuaScript/Views/Shop/PackShopWin.lua	/^    local function addNewTableViewCell(x)$/;"	f
+add_s2c	LuaScript/Service/Package.lua	/^function add_s2c(gameManager,data)	$/;"	f
+all_info_c2s	LuaScript/Service/Mission.lua	/^function all_info_c2s(scene_id)$/;"	f
+all_info_s2c	LuaScript/Service/Mission.lua	/^function all_info_s2c(gameManager,missionsInfo)$/;"	f
+bar_c2s	LuaScript/Service/Equip.lua	/^function bar_c2s()$/;"	f
+bar_s2c	LuaScript/Service/Equip.lua	/^function bar_s2c(gameManager,data)$/;"	f
+bgClickHandle	LuaScript/Views/Package/PackageMainWin.lua	/^    local function bgClickHandle()$/;"	f
+bgClickHandle	LuaScript/Views/Role/RoleWin.lua	/^	local function bgClickHandle()$/;"	f
+bgClickHandle	LuaScript/Views/Shop/PackShopWin.lua	/^	local function bgClickHandle()$/;"	f
+buy_c2s	LuaScript/Service/Shop.lua	/^function buy_c2s(item_id)$/;"	f
+cclog 	LuaScript/Common/Log.lua	/^cclog = function(...)$/;"	f
+cclualog 	LuaScript/Common/Log.lua	/^cclualog = function(...)$/;"	f
+ccprint 	LuaScript/Common/Log.lua	/^ccprint = function(...)$/;"	f
+changingArea	LuaScript/Views/Login/SelectServerView.lua	/^	local function changingArea(sender,controlEvent)$/;"	f
+class	LuaScript/Common/Class.lua	/^function class(super)$/;"	f
+click1Handle	LuaScript/Views/Package/PackageDetailed.lua	/^	function click1Handle(sender,event)$/;"	f
+click2Handle	LuaScript/Views/Package/PackageDetailed.lua	/^	function click2Handle(sender,event)$/;"	f
+closeWindow	LuaScript/Views/Base/Window.lua	/^	function closeWindow(sender,controlEvent)$/;"	f
+cls 	LuaScript/Common/Class.lua	/^            cls = {construct = function() end}$/;"	f
+cls.construct 	LuaScript/Common/Class.lua	/^            cls.construct = function() end$/;"	f
+cls.new	LuaScript/Common/Class.lua	/^        function cls.new(...)$/;"	f
+consume_s2c	LuaScript/Service/Equip.lua	/^function consume_s2c(gameManager,data)$/;"	f
+conv2utf8	LuaScript/Common/Utils.lua	/^function conv2utf8(unicode_str)$/;"	f
+createLayerMenu	LuaScript/Logics/Battle/BattleTouch.lua	/^    local function createLayerMenu()$/;"	f
+createLayerMenu	LuaScript/Views/MainCity/CityTouch.lua	/^    local function createLayerMenu()$/;"	f
+create_c2s	LuaScript/Service/Role.lua	/^function create_c2s(job, name)$/;"	f
+create_s2c	LuaScript/Service/Role.lua	/^function create_s2c(gameManager, data)$/;"	f
+debugTimeView	LuaScript/Common/Debug.lua	/^local function debugTimeView(event)$/;"	f
+deepcopy	LuaScript/Common/Utils.lua	/^function deepcopy(object)$/;"	f
+deepls	file_encrypto.sh	/^deepls(){$/;"	f
+del_item_c2s	LuaScript/Service/Package.lua	/^function del_item_c2s(slot)$/;"	f
+distance	LuaScript/Logics/JewelPlay/JewelUtil.lua	/^function distance(item1,item2)$/;"	f
+do_xxtea_decrypt	xxtea/xxtea.c	/^static unsigned char *do_xxtea_decrypt(unsigned char *data, xxtea_long len, unsigned char *key, xxtea_long *ret_len) {$/;"	f	file:
+do_xxtea_encrypt	xxtea/xxtea.c	/^static unsigned char *do_xxtea_encrypt(unsigned char *data, xxtea_long len, unsigned char *key, xxtea_long *ret_len) {$/;"	f	file:
+dress_c2s	LuaScript/Service/Equip.lua	/^function dress_c2s(slot_id)$/;"	f
+elseif t 	LuaScript/Common/LuaJson.lua	/^    elseif t == "function" then$/;"	f
+enterGameHandler	LuaScript/Views/Login/LoginScene.lua	/^	local function enterGameHandler(sender, controlEvent)$/;"	f
+enter_c2s	LuaScript/Service/Mission.lua	/^function enter_c2s(mission_id)$/;"	f
+enter_c2s	LuaScript/Service/Scene.lua	/^function enter_c2s(scene_id)$/;"	f
+eval	LuaScript/Common/Utils.lua	/^function eval(str)$/;"	f
+file_load	LuaScript/Common/Utils.lua	/^function file_load(path)$/;"	f
+fix_key_length	xxtea/xxtea.c	/^static unsigned char *fix_key_length(unsigned char *key, xxtea_long key_len)$/;"	f	file:
+formatTime	LuaScript/Common/Utils.lua	/^function formatTime(num)$/;"	f
+function_s2c	LuaScript/Service/System.lua	/^function function_s2c(gameManager,data)$/;"	f
+getFunctionById	LuaScript/Common/Utils.lua	/^function getFunctionById(funcId)$/;"	f
+getMissionConfig	LuaScript/Views/Mission/MissionSelectWin.lua	/^    local function getMissionConfig(missionId)$/;"	f
+getTemplateById	LuaScript/Common/Utils.lua	/^function getTemplateById(funcId)$/;"	f
+get_c2s	LuaScript/Service/Quest.lua	/^function get_c2s(quest_type_,quest_id_)$/;"	f
+getname 	LuaScript/Common/Debug.lua	/^local function getname (func)$/;"	f
+gongshouSelected	LuaScript/Views/Login/CreateRoleView.lua	/^	function gongshouSelected()$/;"	f
+heartbeat_c2s	LuaScript/Service/System.lua	/^function heartbeat_c2s()$/;"	f
+heartbeat_s2c	LuaScript/Service/System.lua	/^function heartbeat_s2c(gameManager, data)$/;"	f
+if not callback and type(callback) 	LuaScript/Logics/JewelPlay/JewelShowEffect.lua	/^		if not callback and type(callback) == "function" then$/;"	f
+if superType 	LuaScript/Common/Class.lua	/^    if superType == "function" or (super and super.__ctype == 1) then$/;"	f
+if superType ~	LuaScript/Common/Class.lua	/^    if superType ~= "function" and superType ~= "table" then$/;"	f
+info	LuaScript/Service/Battle.lua	/^function info()$/;"	f
+info_c2s	LuaScript/Service/Package.lua	/^function info_c2s()$/;"	f
+info_c2s	LuaScript/Service/Quest.lua	/^function info_c2s()$/;"	f
+info_c2s	LuaScript/Service/Shop.lua	/^function info_c2s()$/;"	f
+info_s2c	LuaScript/Service/Package.lua	/^function info_s2c(gameManager,data)$/;"	f
+info_s2c	LuaScript/Service/Quest.lua	/^function info_s2c(gameManager,questInfo_)$/;"	f
+info_s2c	LuaScript/Service/Shop.lua	/^function info_s2c(gameManager, data)$/;"	f
+inlay_c2s	LuaScript/Service/Equip.lua	/^function inlay_c2s(id,slot_id)$/;"	f
+inlay_off_c2s	LuaScript/Service/Equip.lua	/^function inlay_off_c2s(id,slot_idx)$/;"	f
+intensify_c2s	LuaScript/Service/Equip.lua	/^function intensify_c2s(id)$/;"	f
+intensify_s2c	LuaScript/Service/Equip.lua	/^function intensify_s2c(gameManager,data)$/;"	f
+jiankeSelected	LuaScript/Views/Login/CreateRoleView.lua	/^	function jiankeSelected()$/;"	f
+leave_c2s	LuaScript/Service/Mission.lua	/^function leave_c2s()$/;"	f
+leave_c2s	LuaScript/Service/Scene.lua	/^function leave_c2s()$/;"	f
+leave_s2c	LuaScript/Service/Scene.lua	/^function leave_s2c(gameManager,data)$/;"	f
+lishiSelected	LuaScript/Views/Login/CreateRoleView.lua	/^	function lishiSelected()$/;"	f
+list_s2c	LuaScript/Service/Role.lua	/^function list_s2c(gameManager, data)$/;"	f
+local callback 	LuaScript/Manager/JewelPlayManager.lua	/^	local callback = function()$/;"	f
+local fromunicode 	LuaScript/Common/LuaJson.lua	/^    local fromunicode = function(m)$/;"	f
+local isindex 	LuaScript/Common/LuaJson.lua	/^    local isindex = function(k)$/;"	f
+login_c2s	LuaScript/Service/Account.lua	/^function login_c2s(account_id,ticket)$/;"	f
+login_c2s	LuaScript/Service/Role.lua	/^function login_c2s(role_id)$/;"	f
+login_s2c	LuaScript/Service/Role.lua	/^function login_s2c(gameManager,loginData)$/;"	f
+m__system__function__s2c	 	LuaScript/NetWork/Protocol.lua	/^m__system__function__s2c	 = {$/;"	f
+main	LuaScript/Main.lua	/^local function main()$/;"	f
+main	file_encrypto.c	/^int main(int argc, char *argv[])$/;"	f
+menuCallbackOpenPopup	LuaScript/Views/MainCity/CityTouch.lua	/^        local function menuCallbackOpenPopup()$/;"	f
+menuCallbackOpenPopup1	LuaScript/Logics/Battle/BattleTouch.lua	/^        local function menuCallbackOpenPopup1()$/;"	f
+menuCallbackOpenPopup2	LuaScript/Logics/Battle/BattleTouch.lua	/^        local function menuCallbackOpenPopup2()$/;"	f
+menuCallbackOpenPopup3	LuaScript/Logics/Battle/BattleTouch.lua	/^        local function menuCallbackOpenPopup3()$/;"	f
+modulo	LuaScript/Common/Utils.lua	/^	local function modulo(a, b)$/;"	f
+move	LuaScript/Manager/JewelPlayManager.lua	/^	local function move()$/;"	f
+move_c2s	LuaScript/Service/Scene.lua	/^function move_c2s(dest_x,dest_y)$/;"	f
+move_item_c2s	LuaScript/Service/Package.lua	/^function move_item_c2s(origin_slot,target_slot)$/;"	f
+move_s2c	LuaScript/Service/Scene.lua	/^function move_s2c(gameManager,data)$/;"	f
+neighbours_s2c	LuaScript/Service/Scene.lua	/^function neighbours_s2c(gameManager,data)$/;"	f
+notify_s2c	LuaScript/Service/System.lua	/^function notify_s2c(gameManager, data)$/;"	f
+npc_talk_c2s	LuaScript/Service/Npc.lua	/^function npc_talk_c2s(npcId_)$/;"	f
+onCancelHandle	LuaScript/Views/Utils/Alert.lua	/^	function onCancelHandle(control,event)$/;"	f
+onClick	LuaScript/Views/Login/AccountLoginView.lua	/^	local function onClick()$/;"	f
+onClickBg	LuaScript/Views/Shop/PackShopItem.lua	/^	local function onClickBg()$/;"	f
+onClickHandle	LuaScript/Views/Equip/EquipQuality.lua	/^	local function onClickHandle()$/;"	f
+onClickHandle	LuaScript/Views/Equip/EquipStrengthen.lua	/^	local function onClickHandle()$/;"	f
+onClickHandle	LuaScript/Views/Equip/EquipStrengthenItem.lua	/^	local function onClickHandle()$/;"	f
+onClickHandle	LuaScript/Views/Role/RoleEquipItem.lua	/^	function onClickHandle(sender,event)$/;"	f
+onClickHandle	LuaScript/Views/Shop/PackShopItem.lua	/^	local function onClickHandle()$/;"	f
+onClickHandle	LuaScript/Views/Utils/AlphaButton.lua	/^	local function onClickHandle()$/;"	f
+onCloseWindow	LuaScript/Views/Package/PackageDetailed.lua	/^	function onCloseWindow()$/;"	f
+onConfirmHandle	LuaScript/Views/Utils/Alert.lua	/^	function onConfirmHandle(control,event)$/;"	f
+onDragStart	LuaScript/Views/Package/PackageMainWin.lua	/^    local function onDragStart()$/;"	f
+onDragStart	LuaScript/Views/Role/RoleEquipItem.lua	/^    local function onDragStart()$/;"	f
+onItemClient	LuaScript/Views/Package/PackageMainWin.lua	/^    local function onItemClient(event,slot_id,clickType,x,y)$/;"	f
+onRefreshHandle	LuaScript/Views/Shop/PackShopWin.lua	/^    local function onRefreshHandle()$/;"	f
+onRefreshShop	LuaScript/Views/Shop/PackShopWin.lua	/^    local function onRefreshShop(value)$/;"	f
+onTickHandle	LuaScript/Views/Shop/PackShopWin.lua	/^    local function onTickHandle()  $/;"	f
+onTouch	LuaScript/Logics/Battle/BattleTouch.lua	/^    local function onTouch(eventType, x, y)$/;"	f
+onTouch	LuaScript/Manager/DragManager.lua	/^	local function onTouch(eventType, x, y) $/;"	f
+onTouch	LuaScript/Utils/ProgressBar.lua	/^    local function onTouch(eventType, x, y)$/;"	f
+onTouch	LuaScript/Views/MainCity/CityTouch.lua	/^    local function onTouch(eventType, x, y)$/;"	f
+onTouch	LuaScript/Views/System/ProgressBar.lua	/^    local function onTouch(eventType, x, y)$/;"	f
+onTouch	LuaScript/Views/Utils/Alert.lua	/^    local function onTouch(eventType, x, y)$/;"	f
+onTouchBegan	LuaScript/Logics/Battle/BattleTouch.lua	/^    local function onTouchBegan(x, y)$/;"	f
+onTouchBegan	LuaScript/Views/MainCity/CityTouch.lua	/^    local function onTouchBegan(x, y)$/;"	f
+onTouchEnded	LuaScript/Logics/Battle/BattleTouch.lua	/^    local function onTouchEnded(x, y)$/;"	f
+onTouchEnded	LuaScript/Views/MainCity/CityTouch.lua	/^    local function onTouchEnded(x, y)$/;"	f
+onTouchMoved	LuaScript/Logics/Battle/BattleTouch.lua	/^    local function onTouchMoved(x, y)$/;"	f
+onTouchMoved	LuaScript/Views/MainCity/CityTouch.lua	/^    local function onTouchMoved(x, y)$/;"	f
+onTouchTick	LuaScript/Views/Login/SelectRoleView.lua	/^		 local function onTouchTick()$/;"	f
+onTouchTick	LuaScript/Views/Package/PackageMainWin.lua	/^            local function onTouchTick()$/;"	f
+onTouchTick	LuaScript/Views/Role/RoleEquipItem.lua	/^        local function onTouchTick()$/;"	f
+onTypeHandle	LuaScript/Views/Shop/PackShopWin.lua	/^    local function onTypeHandle()$/;"	f
+onTypeHandle2	LuaScript/Views/Shop/PackShopWin.lua	/^    local function onTypeHandle2()$/;"	f
+openPackShop	LuaScript/Views/Package/PackageMainWin.lua	/^    local function openPackShop()$/;"	f
+openSlotHandle	LuaScript/Manager/PackageManager.lua	/^    local function openSlotHandle(value)$/;"	f
+openSlotHandle	LuaScript/Views/Package/PackageMainWin.lua	/^    local function openSlotHandle(value)$/;"	f
+openTickHandle	LuaScript/Views/Package/PackageItem.lua	/^	local function openTickHandle()$/;"	f
+open_function			LuaScript/NetWork/Protocol.lua	/^		open_function		= {},$/;"	f
+positionToTile	LuaScript/Common/Utils.lua	/^function positionToTile(value)$/;"	f
+punch_c2s	LuaScript/Service/Equip.lua	/^function punch_c2s(id)$/;"	f
+quality_c2s	LuaScript/Service/Equip.lua	/^function quality_c2s(id)$/;"	f
+refresh_c2s	LuaScript/Service/Shop.lua	/^function refresh_c2s()$/;"	f
+responseCallBack	LuaScript/Logics/Login/AccountLogin.lua	/^	local function responseCallBack(status, account_data)$/;"	f
+resultFun	LuaScript/GameManager.lua	/^    local function resultFun(value)$/;"	f
+retrieve_c2s	LuaScript/Service/Shop.lua	/^function retrieve_c2s(id)$/;"	f
+runFinish	LuaScript/Utils/ProgressBar.lua	/^	local function runFinish()$/;"	f
+rune_engrave_c2s	LuaScript/Service/Equip.lua	/^function rune_engrave_c2s(id,slot_id)$/;"	f
+sale_item_c2s	LuaScript/Service/Package.lua	/^function sale_item_c2s(slot,num)$/;"	f
+scheduleId 	LuaScript/Logics/JewelPlay/JewelShowEffect.lua	/^	scheduleId = CCDirector:sharedDirector():getScheduler():scheduleScriptFunc(function()$/;"	f
+select	LuaScript/Views/Mission/MissionSelecteItem.lua	/^	local function select(sender,eventname)$/;"	f
+selectedCallback	LuaScript/Views/Mission/MissionSelectWin.lua	/^    local function selectedCallback(idx)$/;"	f
+selectedRole	LuaScript/Views/Login/SelectRoleView.lua	/^	local function selectedRole( sender )$/;"	f
+selectingServer	LuaScript/Views/Login/SelectServerView.lua	/^	local function selectingServer(sender,controlEvent)$/;"	f
+sendDataToServer	LuaScript/Common/Utils.lua	/^function sendDataToServer(funcId, data)$/;"	f
+sender, controlEvent) self:gongshouSelected	LuaScript/Views/Login/CreateRoleView.lua	/^	self.ccbNode:registerFunctionWithFuncName("gongshouSelector",gongshouSelected) --function(sender, controlEvent) self:gongshouSelected() end)$/;"	f
+setZAnimationBlend	LuaScript/Utils/ZgameAnimation.lua	/^function setZAnimationBlend(ani)$/;"	f
+show	LuaScript/Service/Chart.lua	/^function show(gameManager, data)$/;"	f
+showTime	LuaScript/Views/Package/PackageOpenSlot.lua	/^	local function showTime()$/;"	f
+sortPackageHandle	LuaScript/Views/Package/PackageMainWin.lua	/^	local function sortPackageHandle(send,controlEvent)$/;"	f
+sortQuest	LuaScript/Logics/Quest/MainQuestLogic.lua	/^	local function sortQuest(questId_)$/;"	f
+sort_c2s	LuaScript/Service/Package.lua	/^function sort_c2s()$/;"	f
+specicalTick	LuaScript/Logics/Character/CharacterClass.lua	/^    local function specicalTick()$/;"	f
+start	LuaScript/Service/Fight.lua	/^function start()$/;"	f
+stop	LuaScript/Service/Battle.lua	/^function stop()$/;"	f
+string.split	LuaScript/Common/Utils.lua	/^function string.split(str, delimiter)$/;"	f
+submit_c2s	LuaScript/Service/Quest.lua	/^function submit_c2s(quest_type_,quest_id_)$/;"	f
+synthesis_c2s	LuaScript/Service/Equip.lua	/^function synthesis_c2s(item_id,quality,level,slot_ids)$/;"	f
+system_function_handle 	LuaScript/Service/ProtocolIdMap.lua	/^system_function_handle = 1003$/;"	f
+table.merge	LuaScript/Common/Utils.lua	/^function table.merge(dest, src)$/;"	f
+tablePrint	LuaScript/Common/Utils.lua	/^function tablePrint(root)   $/;"	f
+tick	LuaScript/Logics/Battle/BattleNumber.lua	/^    local function tick()$/;"	f
+tick	LuaScript/Main.lua	/^    local function tick()$/;"	f
+tickHandle	LuaScript/Manager/WindowManager.lua	/^	local function tickHandle()$/;"	f
+tileToPosition	LuaScript/Common/Utils.lua	/^function tileToPosition(value)$/;"	f
+timeTickHandle	LuaScript/Manager/TimeManager.lua	/^	function timeTickHandle()		$/;"	f
+touchLayerHandler	LuaScript/Views/Base/Window.lua	/^    	local function touchLayerHandler(eventType,x,y)$/;"	f
+transfer_c2s	LuaScript/Service/Scene.lua	/^function transfer_c2s(scene_id)$/;"	f
+undress_c2s	LuaScript/Service/Equip.lua	/^function undress_c2s(equip_pos,slot_id)$/;"	f
+unlock_s2c	LuaScript/Service/Package.lua	/^function unlock_s2c(gameManager,data)$/;"	f
+unlock_slot_c2s	LuaScript/Service/Package.lua	/^function unlock_slot_c2s(slots,type)$/;"	f
+updateAnimation	LuaScript/Views/Role/RoleEquip.lua	/^    function updateAnimation()$/;"	f
+updateAnimation	LuaScript/Views/Role/RoleWin.lua	/^	function updateAnimation()$/;"	f
+update_attr_s2c	LuaScript/Service/Role.lua	/^function update_attr_s2c(gameManager,data) $/;"	f
+update_pos_c2s	LuaScript/Service/Scene.lua	/^function update_pos_c2s(pos_x,pos_y)$/;"	f
+update_pos_s2c	LuaScript/Service/Scene.lua	/^function update_pos_s2c(gameManager,data)$/;"	f
+use_item_c2s	LuaScript/Service/Package.lua	/^function use_item_c2s(slot,num)$/;"	f
+xxtea_decrypt	xxtea/xxtea.c	/^unsigned char *xxtea_decrypt(unsigned char *data, xxtea_long data_len, unsigned char *key, xxtea_long key_len, xxtea_long *ret_length)$/;"	f
+xxtea_encrypt	xxtea/xxtea.c	/^unsigned char *xxtea_encrypt(unsigned char *data, xxtea_long data_len, unsigned char *key, xxtea_long key_len, xxtea_long *ret_length)$/;"	f
+xxtea_long	xxtea/xxtea.h	/^typedef uint32_t xxtea_long;$/;"	t
+xxtea_long	xxtea/xxtea.h	/^typedef unsigned __int32 xxtea_long;$/;"	t
+xxtea_long_decrypt	xxtea/xxtea.c	/^static void xxtea_long_decrypt(xxtea_long *v, xxtea_long len, xxtea_long *k)$/;"	f	file:
+xxtea_long_encrypt	xxtea/xxtea.c	/^static void xxtea_long_encrypt(xxtea_long *v, xxtea_long len, xxtea_long *k)$/;"	f	file:
+xxtea_to_byte_array	xxtea/xxtea.c	/^static unsigned char *xxtea_to_byte_array(xxtea_long *data, xxtea_long len, int include_length, xxtea_long *ret_len) {$/;"	f	file:
+xxtea_to_long_array	xxtea/xxtea.c	/^static xxtea_long *xxtea_to_long_array(unsigned char *data, xxtea_long len, int include_length, xxtea_long *ret_len) {$/;"	f	file:
